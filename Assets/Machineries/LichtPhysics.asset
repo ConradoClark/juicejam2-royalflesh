@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1903452838, guid: a70477a1d4ace974ab3f83bfa771b26f, type: 3}
+  m_Name: LichtPhysics
+  m_EditorClassIdentifier: 
+  Debug: 0
+  MinRayCastSize: 1
+  CollisionOffset: 0.01
+  FrameMultiplier: 0.001
+  ObstacleLayerMask:
+    serializedVersion: 2
+    m_Bits: 128
+  LichtPhysicsMachinery: {fileID: 11400000, guid: 2be1d32e56b5a3041b58de6d60b9bfd5, type: 2}
+  ScriptTimerRef: {fileID: 11400000, guid: 6b4abcab639cce3459fa5694341b388b, type: 2}
