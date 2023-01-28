@@ -1,5 +1,56 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1102 &-6891148624019831208
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MrBones_Head_Walk
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 06093df0be0b9c9498058d92f4b4bef4, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1101 &-6690190104889791562
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: Walking
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 8478722900726662381}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 1
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
 --- !u!1107 &-2872929781420651463
 AnimatorStateMachine:
   serializedVersion: 6
@@ -59,7 +110,7 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -81,6 +132,9 @@ AnimatorController:
     - serializedVersion: 2
       m_State: {fileID: 8478722900726662381}
       m_Motion: {fileID: 7400000, guid: f0a2fb7f78d895445b7e908e53e60a73, type: 2}
+    - serializedVersion: 2
+      m_State: {fileID: 1754669531514039352}
+      m_Motion: {fileID: 7400000, guid: 06093df0be0b9c9498058d92f4b4bef4, type: 2}
     m_Behaviours: []
     m_BlendingMode: 1
     m_SyncedLayerIndex: 0
@@ -96,6 +150,9 @@ AnimatorController:
     - serializedVersion: 2
       m_State: {fileID: 8478722900726662381}
       m_Motion: {fileID: 7400000, guid: da0497655fc9a7441ae74f272439ca26, type: 2}
+    - serializedVersion: 2
+      m_State: {fileID: 1754669531514039352}
+      m_Motion: {fileID: 7400000, guid: f7d85d065bb145642b35014cf0e07265, type: 2}
     m_Behaviours: []
     m_BlendingMode: 1
     m_SyncedLayerIndex: 0
@@ -126,6 +183,9 @@ AnimatorController:
     - serializedVersion: 2
       m_State: {fileID: 8478722900726662381}
       m_Motion: {fileID: 7400000, guid: 80eae91abeb285d449a10c0fbf05f87c, type: 2}
+    - serializedVersion: 2
+      m_State: {fileID: 1754669531514039352}
+      m_Motion: {fileID: 7400000, guid: 728edcc76412fd241bd78133e45674e2, type: 2}
     m_Behaviours: []
     m_BlendingMode: 1
     m_SyncedLayerIndex: 0
@@ -141,6 +201,9 @@ AnimatorController:
     - serializedVersion: 2
       m_State: {fileID: 8478722900726662381}
       m_Motion: {fileID: 7400000, guid: f9766fa7414cb024d9b6a1e6b02179bb, type: 2}
+    - serializedVersion: 2
+      m_State: {fileID: 1754669531514039352}
+      m_Motion: {fileID: 7400000, guid: b2ca9ef12798f7b49b5696de29961b5b, type: 2}
     m_Behaviours: []
     m_BlendingMode: 1
     m_SyncedLayerIndex: 0
@@ -177,7 +240,8 @@ AnimatorState:
   m_Name: Walking
   m_Speed: 1
   m_CycleOffset: 0
-  m_Transitions: []
+  m_Transitions:
+  - {fileID: -6690190104889791562}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -188,6 +252,32 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: 0}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &2154160911631728219
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MrBones_LeftArm_Walk
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: f7d85d065bb145642b35014cf0e07265, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -252,6 +342,12 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: 1754669531514039352}
     m_Position: {x: 40, y: 300, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -6891148624019831208}
+    m_Position: {x: 145, y: 495, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 2154160911631728219}
+    m_Position: {x: 180, y: 560, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
