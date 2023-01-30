@@ -9,6 +9,14 @@ public class CharacterAnimController : BaseGameObject
 {
     public LichtTopDownMoveController CharacterController;
     public Animator Animator;
+    private SpriteRenderer[] _sprites;
+    private bool _flip;
+
+    protected override void OnAwake()
+    {
+        base.OnAwake();
+        _sprites = GetComponentsInChildren<SpriteRenderer>(true);
+    }
 
     public void OnEnable()
     {
@@ -44,5 +52,15 @@ public class CharacterAnimController : BaseGameObject
         this.StopObservingEvent<LichtTopDownMoveController.LichtTopDownMoveEvents,
             LichtTopDownMoveController.LichtTopDownMoveEventArgs>(
             LichtTopDownMoveController.LichtTopDownMoveEvents.OnStopMoving, OnStopMoving);
+    }
+
+    public void Update()
+    {
+        _flip = CharacterController.LatestDirection.x < 0;
+        Animator.SetBool("FlipX", _flip);
+        foreach (var sprite in _sprites)
+        {
+            sprite.flipX = _flip;
+        }
     }
 }
