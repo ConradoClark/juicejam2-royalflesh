@@ -1,0 +1,927 @@
+fileFormatVersion: 2
+guid: f8331e44d9578be4ba48427b95239e7b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 71
+        width: 16
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177745d51e871b941968fe52088ca375
+      internalID: 2093380249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 71
+        width: 12
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6baedbc3c3ea1fa4bb9c0927ac5bb2a9
+      internalID: 1399404647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 71
+        width: 10
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da154a6f1c932c4daca1526a6f313d5
+      internalID: 2027637216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_3
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 71
+        width: 13
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d238489f009d9c44dac48e8fa28ce9e2
+      internalID: -122703598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_4
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 71
+        width: 13
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d07df862986cbd4ab50a5dd5aa91b19
+      internalID: -624364707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_5
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 71
+        width: 12
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6675550daacaf1e40be0a2b775e33c15
+      internalID: -706055325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_6
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 71
+        width: 13
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05897e2496c64e64e9cfc2b500184aa5
+      internalID: 1523179391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_7
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 71
+        width: 15
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4c12212ff08904d996cefc60964d23
+      internalID: -1595585248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_8
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 71
+        width: 11
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbeece51f028155448bf8843f1cda985
+      internalID: 611868919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_9
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 67
+        width: 8
+        height: 17
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e653ac5daccee4e81d9bd65de82cf9
+      internalID: 738872323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_10
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 50
+        width: 15
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de919affaa433b46a903a1355771f61
+      internalID: 714701333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_11
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 50
+        width: 12
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894c18b8085dbb549abf11b57482b13c
+      internalID: -259400070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_12
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 50
+        width: 17
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7648839578c30094884061dbd649213d
+      internalID: -29485863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_13
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 50
+        width: 14
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267f8796d4981384893df92d9899a2ed
+      internalID: 676846654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_14
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 50
+        width: 11
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6056ff6ce464dc147849eb5dc73299e0
+      internalID: -1268893145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_15
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 50
+        width: 12
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d61f601256d58c4db11c7d86801a9eb
+      internalID: -565889068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_16
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 48
+        width: 11
+        height: 15
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6bdc1485757f8d4e899a8767085a224
+      internalID: -1615360072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_17
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 50
+        width: 15
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6ac0fa291b3af42acc132db04be6a6
+      internalID: -878781252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_18
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 50
+        width: 10
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76035c6d79ec1a49a545a13cd31e272
+      internalID: -896042718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_19
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 50
+        width: 12
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd99a93590ecbf409585b3acccb5a26
+      internalID: 1507210362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_20
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 28
+        width: 14
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7dbcc2f596affb45966ddbb3fc4f484
+      internalID: -1439789399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_21
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 28
+        width: 12
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab361ffe1182a545b394ea9df7f4133
+      internalID: 1331307905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_22
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 28
+        width: 15
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6923dab87067e4a8765ebb587cd000
+      internalID: -1959321467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_23
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 28
+        width: 16
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2b3ec62129e02469cf8293ca80d5f2
+      internalID: -1422249035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_24
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 24
+        width: 12
+        height: 17
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acdf1585f529aa64d8c17d0a712ea662
+      internalID: -1620000269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_25
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 28
+        width: 12
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9e10c499a62b748ab73034116b79dc
+      internalID: 792586011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_26
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 7
+        width: 9
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae65a44437910b42977f3bc35c62215
+      internalID: -1779819786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_27
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 7
+        width: 7
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d753c812a4ce5ea4c833947141226c95
+      internalID: -1974373717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_28
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 7
+        width: 10
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd30ba35e2b0844b947c8c827608183
+      internalID: -30362686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_29
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 7
+        width: 10
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724c4d27edaa9d24e9c27e952d8cf308
+      internalID: -2031889119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_30
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 7
+        width: 11
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbfe5bdc0d47b74ebc7acebeeeb9751
+      internalID: 117497842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_31
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 7
+        width: 9
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf534c3a314788448c1f4410e86766d
+      internalID: 51298030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_32
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 7
+        width: 9
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c831fe9a2c401543bfce3f03fce8620
+      internalID: 389674056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_33
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 7
+        width: 10
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c48e7b801897b40892360801f32747
+      internalID: -545171109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_34
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 7
+        width: 9
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eed7484523d68245ac2aaf19d869a08
+      internalID: -356414460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VeniceClassic_Outlined_35
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 7
+        width: 9
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6702fbb79dc0343b29d14e95df7682
+      internalID: 846407202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      VeniceClassic_Outlined_29: -2031889119
+      VeniceClassic_Outlined_7: -1595585248
+      VeniceClassic_Outlined_0: 2093380249
+      VeniceClassic_Outlined_30: 117497842
+      VeniceClassic_Outlined_27: -1974373717
+      VeniceClassic_Outlined_33: -545171109
+      VeniceClassic_Outlined_5: -706055325
+      VeniceClassic_Outlined_20: -1439789399
+      VeniceClassic_Outlined_31: 51298030
+      VeniceClassic_Outlined_34: -356414460
+      VeniceClassic_Outlined_1: 1399404647
+      VeniceClassic_Outlined_18: -896042718
+      VeniceClassic_Outlined_21: 1331307905
+      VeniceClassic_Outlined_23: -1422249035
+      VeniceClassic_Outlined_32: 389674056
+      VeniceClassic_Outlined_28: -30362686
+      VeniceClassic_Outlined_3: -122703598
+      VeniceClassic_Outlined_22: -1959321467
+      VeniceClassic_Outlined_6: 1523179391
+      VeniceClassic_Outlined_17: -878781252
+      VeniceClassic_Outlined_26: -1779819786
+      VeniceClassic_Outlined_11: -259400070
+      VeniceClassic_Outlined_13: 676846654
+      VeniceClassic_Outlined_19: 1507210362
+      VeniceClassic_Outlined_4: -624364707
+      VeniceClassic_Outlined_2: 2027637216
+      VeniceClassic_Outlined_24: -1620000269
+      VeniceClassic_Outlined_25: 792586011
+      VeniceClassic_Outlined_35: 846407202
+      VeniceClassic_Outlined_10: 714701333
+      VeniceClassic_Outlined_14: -1268893145
+      VeniceClassic_Outlined_16: -1615360072
+      VeniceClassic_Outlined_9: 738872323
+      VeniceClassic_Outlined_8: 611868919
+      VeniceClassic_Outlined_12: -29485863
+      VeniceClassic_Outlined_15: -565889068
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
