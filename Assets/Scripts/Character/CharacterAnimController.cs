@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Licht.Impl.Events;
@@ -7,6 +8,8 @@ using UnityEngine;
 
 public class CharacterAnimController : BaseGameObject
 {
+    public Vector2 LatestDirection => CharacterController.LatestDirection;
+
     public LichtTopDownMoveController CharacterController;
     public Animator Animator;
     private SpriteRenderer[] _sprites;
@@ -62,5 +65,10 @@ public class CharacterAnimController : BaseGameObject
         {
             sprite.flipX = _flip;
         }
+    }
+
+    public void TriggerRightAttack()
+    {
+        Animator.SetTrigger("RightAtk");
     }
 }

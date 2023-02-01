@@ -18,6 +18,6 @@ MonoBehaviour:
   FrameMultiplier: 0.001
   ObstacleLayerMask:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 384
   LichtPhysicsMachinery: {fileID: 11400000, guid: 2be1d32e56b5a3041b58de6d60b9bfd5, type: 2}
   ScriptTimerRef: {fileID: 11400000, guid: 6b4abcab639cce3459fa5694341b388b, type: 2}

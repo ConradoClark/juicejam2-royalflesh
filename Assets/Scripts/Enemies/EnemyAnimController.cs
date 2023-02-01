@@ -10,13 +10,24 @@ using UnityEngine;
 public class EnemyAnimController : BaseGameObject
 {
     private bool _flip;
+    private bool _knockBack;
     private SpriteRenderer[] _sprites;
     public Animator Animator;
     public LichtPhysicsObject PhysicsObject;
 
+    public void SetKnockBack(bool knockBack)
+    {
+        _knockBack = knockBack;
+    }
+
     public void SetWalking(bool walking)
     {
         Animator.SetBool("Walking", walking);
+    }
+
+    private void OnEnable()
+    {
+        SetKnockBack(false);
     }
 
     protected override void OnAwake()
@@ -27,6 +38,7 @@ public class EnemyAnimController : BaseGameObject
 
     private void Update()
     {
+        if (_knockBack) return;
         _flip = PhysicsObject.LatestDirection.x < 0;
         Animator.SetBool("FlipX", _flip);
         foreach (var sprite in _sprites)

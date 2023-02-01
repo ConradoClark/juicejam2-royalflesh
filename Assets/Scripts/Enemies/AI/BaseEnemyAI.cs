@@ -64,16 +64,16 @@ public class BaseEnemyAI : BaseGameObject
                          .Where(pat => pat.Enabled)
                          .OrderBy(pat => pat.Priority).ToArray())
             {
-                Debug.Log($"Object ({_reference.name}): Checking Pattern ({pattern.Name})");
+               // Debug.Log($"Object ({_reference.name}): Checking Pattern ({pattern.Name})");
 
                 if (!pattern.Condition.CheckCondition()) continue;
                 foundPattern = true;
 
-                Debug.Log($"Object ({_reference.name}): Starting Pattern ({pattern.Name})");
+                //Debug.Log($"Object ({_reference.name}): Starting Pattern ({pattern.Name})");
 
                 foreach (var action in pattern.Actions)
                 {
-                    Debug.Log($"Object ({_reference.name}): Starting Action ({action})");
+                    //Debug.Log($"Object ({_reference.name}): Starting Action ({action})");
                     yield return action.Execute(this,
                         () => _breakConditions.Any(cond=>cond.CheckCondition())
                     ).AsCoroutine();

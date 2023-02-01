@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using Licht.Impl.Events;
 using Licht.Impl.Orchestration;
 using Licht.Interfaces.Events;
@@ -16,11 +17,12 @@ public class CustomAnimationEventListener : BaseGameObject
         public AnimatingLimb AnimatingLimb;
         public string StateName;
         public string EventName;
-        public int KeyFrame;
+        public int KeyFrameMin;
+        public int KeyFrameMax;
 
         public override string ToString()
         {
-            return $"{StateName} - {EventName} on frame {KeyFrame}";
+            return $"{StateName} - {EventName} on frames {KeyFrameMin}-{KeyFrameMax}";
         }
     }
 
@@ -57,7 +59,8 @@ public class CustomAnimationEventListener : BaseGameObject
 
     public enum AnimationEventType
     {
-        OnCustomAnimationEvent
+        OnCustomAnimationEvent,
+        OnCustomAnimationEventExit
     }
 
     public Animator Animator;
@@ -101,7 +104,7 @@ public class CustomAnimationEventListener : BaseGameObject
                 var length = clipInfo[0].clip.length;
                 var currentFrame = (int)(stateInfo.normalizedTime * length * frameRate % (length * frameRate));
 
-                if (currentFrame != anim.KeyFrame) continue;
+                if (currentFrame > anim.KeyFrameMax || currentFrame < anim.KeyFrameMin) continue;
 
                 _eventPublisher.PublishEvent(AnimationEventType.OnCustomAnimationEvent, new CustomAnimationEventHandler()
                 {
@@ -130,7 +133,13 @@ public class CustomAnimationEventListener : BaseGameObject
             var frameRate = clipInfo[0].clip.frameRate;
             var length = clipInfo[0].clip.length;
             currentFrame = (int)(stateInfo.normalizedTime * length * frameRate % (length * frameRate));
-        } while (_enabled && currentFrame == anim.KeyFrame && stateInfo.IsName(anim.StateName));
+        } while (_enabled && currentFrame >= anim.KeyFrameMin && currentFrame <= anim.KeyFrameMax && stateInfo.IsName(anim.StateName));
+
+        _eventPublisher.PublishEvent(AnimationEventType.OnCustomAnimationEventExit, new CustomAnimationEventHandler()
+        {
+            AnimEvent = anim,
+            Source = this
+        });
 
         _blockedEvents.Remove(anim.EventName);
     }
