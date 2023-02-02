@@ -19,6 +19,11 @@ public class CharacterCombatHandler : BaseGameObject
     private PlayerInput _playerInput;
     private InputAction _attackAction;
     private LimbAttack[] _attacks;
+    private LimbAttack[] _currentCombo;
+
+    public float BufferingTimeInMs;
+
+    private bool _isAtkBuffering;
 
     protected override void OnAwake()
     {
@@ -31,32 +36,63 @@ public class CharacterCombatHandler : BaseGameObject
     private void OnEnable()
     {
         _enabled = true;
+        DefaultMachinery.AddBasicMachine(HandleBuffer());
         DefaultMachinery.AddBasicMachine(HandleCombat());
+        _currentCombo = _attacks.OrderBy(atk => atk.Priority).ToArray();
     }
     private void OnDisable()
     {
         _enabled = false;
     }
 
-    private IEnumerable<IEnumerable<Action>> HandleCombat()
+    private IEnumerable<IEnumerable<Action>> HandleBuffer()
     {
         while (_enabled)
         {
             if (_attackAction.WasPerformedThisFrame())
             {
+                _isAtkBuffering = true;
+                yield return TimeYields.WaitMilliseconds(GameTimer, BufferingTimeInMs,
+                    breakCondition: () => !_isAtkBuffering, resetCondition: () => _attackAction.WasPerformedThisFrame());
+                _isAtkBuffering = false;
+            }
+            else
+            {
+                yield return TimeYields.WaitOneFrameX;
+            }
+        }
+    }
+
+    private IEnumerable<IEnumerable<Action>> HandleCombat()
+    {
+        while (_enabled)
+        {
+            if (_isAtkBuffering)
+            {
+                _isAtkBuffering = false;
                 MoveController.BlockMovement(this);
-                switch (_attacks[0].Type)
+
+                for (var index = 0; index < _currentCombo.Length; index++)
                 {
-                    case LimbAttack.LimbAttackType.Left:
-                        break;
-                    case LimbAttack.LimbAttackType.Right:
-                        AnimController.TriggerRightAttack();
-                        break;
-                    default:
-                        throw new ArgumentOutOfRangeException();
+                    var attack = _currentCombo[index];
+                    if (index > 0 && !_isAtkBuffering) break;
+                    switch (attack.Type)
+                    {
+                        case LimbAttack.LimbAttackType.Left:
+                            AnimController.TriggerLeftAttack();
+                            break;
+                        case LimbAttack.LimbAttackType.Right:
+                            AnimController.TriggerRightAttack();
+                            break;
+                        default:
+                            throw new ArgumentOutOfRangeException();
+                    }
+
+                    yield return TimeYields.WaitMilliseconds(GameTimer, attack.AttackCooldownInMs);
                 }
 
-                yield return TimeYields.WaitMilliseconds(GameTimer, _attacks[0].AttackCooldownInMs);
+                _isAtkBuffering = false;
+
                 MoveController.UnblockMovement(this);
             }
             else yield return TimeYields.WaitOneFrameX;

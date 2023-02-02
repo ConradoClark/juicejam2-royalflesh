@@ -9,7 +9,6 @@ public class LimbAttack : BaseGameObject
 {
     public float AttackCooldownInMs;
     public int Priority;
-    public CustomAnimationEventListener[] ListenersToEnable;
     public LimbAttackType Type;
 
     public enum LimbAttackType
