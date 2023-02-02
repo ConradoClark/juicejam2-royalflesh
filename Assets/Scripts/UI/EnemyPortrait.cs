@@ -9,8 +9,7 @@ using UnityEngine;
 
 public class EnemyPortrait : EffectPoolable
 {
-    public float BarSize;
-    public float FullHealthSize;
+    public HPCounter HPCounter;
     public GameObject Actor;
     private EnemyPortraitHandler _enemyPortraitHandler;
     private SpriteRenderer[] _sprites;

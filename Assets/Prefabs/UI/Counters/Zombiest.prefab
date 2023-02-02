@@ -117,7 +117,7 @@ Transform:
   - {fileID: 6616305997736456433}
   - {fileID: 6616305998191502754}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6616305998086305686
 SpriteRenderer:
@@ -184,8 +184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ActiveOnInitialization: 0
-  BarSize: 0.48
-  FullHealthSize: 0.45
+  HPCounter: {fileID: 702369877616004885}
   Actor: {fileID: 0}
 --- !u!1 &6616305998191502765
 GameObject:
@@ -197,6 +196,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6616305998191502754}
   - component: {fileID: 6616305998191502755}
+  - component: {fileID: 702369877616004885}
   m_Layer: 5
   m_Name: EnemyCounter#1
   m_TagString: Untagged
@@ -272,6 +272,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &702369877616004885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6616305998191502765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ef6e7c21698c547a7843b99531df90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StatsRef: {fileID: 0}
+  BarSprite: {fileID: 6616305999111804078}
+  ShadowSprite: {fileID: 0}
+  FullHealthSize: 0.45
+  EmptyHealthSize: 0.17
 --- !u!1 &6616305999111804072
 GameObject:
   m_ObjectHideFlags: 0
