@@ -73,7 +73,7 @@ public class EnableHitBoxOnAnimEvent : BaseGameObject
             if (collision > 0)
             {
                 OnCollide?.Invoke(_results);
-                yield return TimeYields.WaitOneFrameX;
+                yield return TimeYields.WaitMilliseconds(GameTimer, 25);
                 Collider.enabled = false;
             }
             else yield return TimeYields.WaitOneFrameX;

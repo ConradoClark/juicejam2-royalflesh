@@ -44,10 +44,6 @@ public class EnemyKnockbackOnHit : BaseGameObject
             var trigger = HurtBoxDetector.Triggers.FirstOrDefault(t => t.TriggeredHit);
             if (trigger.TriggeredHit)
             {
-                if (!trigger.Collider.enabled)
-                {
-                    Debug.Log("triggered hit on disabled collider!");
-                }
                 AnimController.SetKnockBack(true);
                 yield return PhysicsObject.GetSpeedAccessor(new Vector2(Speed * trigger.Direction.x, 0))
                     .X

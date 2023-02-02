@@ -19,6 +19,7 @@ public class EffectOnAnimEvent : MonoBehaviour
     public ScriptPrefab EffectPrefab;
     public string EventName;
     public LichtPhysicsObject PhysicsObject;
+    public bool FlipEffectOnFlipX;
 
     private EffectsManager _effects;
     private SpriteRenderer _refSprite;
@@ -42,10 +43,16 @@ public class EffectOnAnimEvent : MonoBehaviour
         if (obj.AnimEvent.EventName != EventName) return;
         if (!_effects.Effects[EffectPrefab].TryGetFromPool(out var effect)) return;
 
+        effect.Component.transform.localRotation = Quaternion.identity;
+
         var spawnOffset = SpawnOffset;
         if (UseSpawnOffsetOnFlipX && _refSprite.flipX)
         {
             spawnOffset = SpawnOffsetOnFlip;
+            if (FlipEffectOnFlipX)
+            {
+                effect.Component.transform.localRotation = Quaternion.Euler(0, 180, 0);
+            }
         }
 
         if (PhysicsObject!=null)
