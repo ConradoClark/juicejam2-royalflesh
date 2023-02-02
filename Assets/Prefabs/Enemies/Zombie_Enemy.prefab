@@ -537,6 +537,7 @@ GameObject:
   - component: {fileID: 2357262559416291651}
   - component: {fileID: 2357262559416291676}
   - component: {fileID: 2357262558071878991}
+  - component: {fileID: 4683576287495803616}
   m_Layer: 8
   m_Name: Zombie_Enemy
   m_TagString: Untagged
@@ -626,6 +627,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PhysicsObject: {fileID: 2357262559416291650}
   MaxHP: 3
+--- !u!114 &4683576287495803616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2357262559416291648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cdc3f6d3e53b924ebbc3642433822c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ActiveOnInitialization: 0
+  Stats: {fileID: 2357262558071878991}
+  Effect: {fileID: 11400000, guid: c17b5fec2074c0a478885298e4dcd068, type: 2}
+  SpriteRef: {fileID: 1153630229619542259}
 --- !u!1 &2357262559521038024
 GameObject:
   m_ObjectHideFlags: 0
@@ -867,6 +884,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 95c87fb0e3bc4334bac35b9768b990b0, type: 3}
+--- !u!212 &1153630229619542259 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3509475478108327789, guid: 95c87fb0e3bc4334bac35b9768b990b0, type: 3}
+  m_PrefabInstance: {fileID: 2357262557702997918}
+  m_PrefabAsset: {fileID: 0}
 --- !u!95 &7166502940811405960 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 4882506430691437846, guid: 95c87fb0e3bc4334bac35b9768b990b0, type: 3}

@@ -1844,6 +1844,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 9292751}
+  - {fileID: 540738410}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1864,6 +1865,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 066cf5fbcbd4d0240a69f3a88327afc5, type: 2}
   - {fileID: 11400000, guid: 1059025cb7efd014aa1157ea996c7e21, type: 2}
   - {fileID: 11400000, guid: b6913a7fd7966174b8c4d24d984a4b92, type: 2}
+  - {fileID: 11400000, guid: c17b5fec2074c0a478885298e4dcd068, type: 2}
 --- !u!1 &443955177
 GameObject:
   m_ObjectHideFlags: 0
@@ -2244,6 +2246,67 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &540738409
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 540738410}
+  - component: {fileID: 540738412}
+  - component: {fileID: 540738411}
+  m_Layer: 0
+  m_Name: DeadEnemies
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &540738410
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 540738409}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 439943551}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &540738411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 540738409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44f384589ef6c3a4c8798091f6dea8d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PoolManager: {fileID: 540738412}
+--- !u!114 &540738412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 540738409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cdd52268823fed4cb06d79e35886050, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PreloadEffects:
+  - {fileID: 11400000, guid: c17b5fec2074c0a478885298e4dcd068, type: 2}
+  Name: DeadBodies
 --- !u!1 &555802770
 GameObject:
   m_ObjectHideFlags: 0
@@ -3243,6 +3306,7 @@ GameObject:
   - component: {fileID: 853679790}
   - component: {fileID: 853679792}
   - component: {fileID: 853679791}
+  - component: {fileID: 853679793}
   m_Layer: 9
   m_Name: Impact
   m_TagString: Untagged
@@ -3300,6 +3364,21 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   EventName: AtkImpact
+--- !u!114 &853679793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 853679789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8575ac3704ffdbf488a36612b7c53efb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Stats: {fileID: 8319851520379836415}
+  Damage: 1
+  HitBoxEvent: {fileID: 853679792}
 --- !u!1 &858574603
 GameObject:
   m_ObjectHideFlags: 0
