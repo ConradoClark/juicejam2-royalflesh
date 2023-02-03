@@ -45,7 +45,7 @@ public class EnemyKnockbackOnHit : BaseGameObject
             if (trigger.TriggeredHit)
             {
                 AnimController.SetKnockBack(true);
-                yield return PhysicsObject.GetSpeedAccessor(new Vector2(Speed * trigger.Direction.x, 0))
+                yield return PhysicsObject.GetSpeedAccessor(new Vector2(Speed * trigger.Direction.x * trigger.Collider.sharedMaterial.bounciness, 0))
                     .X
                     .SetTarget(0f)
                     .Over(0.4f)

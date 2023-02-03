@@ -31,6 +31,15 @@ AnimationClip:
     path: Head/MrBones_Head
     classID: 212
     script: {fileID: 0}
+  - curve:
+    - time: 0
+      value: {fileID: 821975329, guid: 2997e90dfc305f145a10e250f70bf3e3, type: 3}
+    - time: 1
+      value: {fileID: -1587313675, guid: 8796d896af4361445a4418f611fa9bb2, type: 3}
+    attribute: m_Sprite
+    path: Head/Zombie_Head
+    classID: 212
+    script: {fileID: 0}
   m_SampleRate: 9
   m_WrapMode: 0
   m_Bounds:
@@ -46,11 +55,21 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
       isIntCurve: 0
+    - serializedVersion: 2
+      path: 714871173
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+      isIntCurve: 0
     pptrCurveMapping:
     - {fileID: -147780442, guid: ff966d1de4842484b86f6d74dc7a0f7b, type: 3}
     - {fileID: 482354703, guid: ff966d1de4842484b86f6d74dc7a0f7b, type: 3}
     - {fileID: 257507756, guid: ff966d1de4842484b86f6d74dc7a0f7b, type: 3}
     - {fileID: -1241934761, guid: 22b8346da38f90d46b06540ef277fb40, type: 3}
+    - {fileID: 821975329, guid: 2997e90dfc305f145a10e250f70bf3e3, type: 3}
+    - {fileID: -1587313675, guid: 8796d896af4361445a4418f611fa9bb2, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

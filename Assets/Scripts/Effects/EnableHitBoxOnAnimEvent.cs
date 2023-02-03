@@ -39,6 +39,8 @@ public class EnableHitBoxOnAnimEvent : BaseGameObject
 
     private void OnEventExit(CustomAnimationEventListener.CustomAnimationEventHandler obj)
     {
+        if (obj.Source != AnimEventListener) return;
+        if (obj.AnimEvent.EventName != EventName) return;
         Collider.enabled = false;
     }
 
