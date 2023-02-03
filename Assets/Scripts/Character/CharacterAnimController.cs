@@ -76,4 +76,9 @@ public class CharacterAnimController : BaseGameObject
     {
         Animator.SetTrigger("LeftAtk");
     }
+
+    public void SetHurting(bool hurting)
+    {
+        Animator.SetBool("Hurting", hurting);
+    }
 }

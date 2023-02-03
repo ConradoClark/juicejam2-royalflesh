@@ -18,12 +18,14 @@ public class EnemyKnockbackOnHit : BaseGameObject
     public LichtPhysicsObject PhysicsObject;
 
     private bool _enabled;
+    private LichtPhysics _physics;
 
     public float Speed;
 
     protected override void OnAwake()
     {
         base.OnAwake();
+        _physics = this.GetLichtPhysics();
     }
 
     private void OnEnable()
@@ -41,7 +43,8 @@ public class EnemyKnockbackOnHit : BaseGameObject
     {
         while (_enabled)
         {
-            var trigger = HurtBoxDetector.Triggers.FirstOrDefault(t => t.TriggeredHit);
+            var trigger = HurtBoxDetector.Triggers.FirstOrDefault(t => t.TriggeredHit
+                && ShadowComparer.IsZIndexInRange(_physics, HurtBoxDetector.Collider, t.Collider));
             if (trigger.TriggeredHit)
             {
                 AnimController.SetKnockBack(true);

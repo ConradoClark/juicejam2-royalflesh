@@ -1,12 +1,18 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Licht.Impl.Orchestration;
+using Licht.Unity.Objects;
 using Licht.Unity.Physics;
 using UnityEngine;
 
-public class CharacterStats : MonoBehaviour
+public class CharacterStats : BaseGameObject
 {
     public LichtPhysicsObject PhysicsObject;
+
+    public bool CanBeHit;
+
+    public bool BeingHit { get; private set; }
 
     public int MaxHP;
     public int CurrentHP { get; private set; }
@@ -44,6 +50,9 @@ public class CharacterStats : MonoBehaviour
 
     public void Damage(int damage)
     {
+        if (!CanBeHit) return;
+        BeingHit = true;
+        DefaultMachinery.AddBasicMachine(HitCooldown());
         var previousHp = CurrentHP;
         CurrentHP = Math.Max(0, CurrentHP - damage);
         OnDamage?.Invoke(new DamageEventHandler
@@ -53,6 +62,12 @@ public class CharacterStats : MonoBehaviour
             Damage = damage,
             Deadly = CurrentHP == 0
         });
+    }
+
+    private IEnumerable<IEnumerable<Action>> HitCooldown()
+    {
+        yield return TimeYields.WaitMilliseconds(GameTimer, 100);
+        BeingHit = false;
     }
 
     public void Heal(int heal)

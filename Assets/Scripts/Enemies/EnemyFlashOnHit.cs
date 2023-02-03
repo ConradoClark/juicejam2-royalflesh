@@ -5,7 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Licht.Impl.Orchestration;
 using Licht.Unity.Builders;
+using Licht.Unity.Extensions;
 using Licht.Unity.Objects;
+using Licht.Unity.Physics;
 using Licht.Unity.Physics.CollisionDetection;
 using UnityEngine;
 
@@ -18,11 +20,13 @@ public class EnemyFlashOnHit : BaseGameObject
     private bool _enabled;
 
     private SpriteRenderer[] _sprites;
+    private LichtPhysics _physics;
 
     protected override void OnAwake()
     {
         base.OnAwake();
         _sprites = Limbs.GetComponentsInChildren<SpriteRenderer>(true);
+        _physics = this.GetLichtPhysics();
     }
 
     private void OnEnable()
@@ -40,7 +44,9 @@ public class EnemyFlashOnHit : BaseGameObject
     {
         while (_enabled)
         {
-            if (HurtBoxDetector.Triggers.Any(t => t.TriggeredHit))
+            if (HurtBoxDetector.Triggers.Any(
+                    t => t.TriggeredHit 
+                         && ShadowComparer.IsZIndexInRange(_physics, HurtBoxDetector.Collider, t.Collider)))
             {
                 var lerpFloat = 0f;
                 var flash = new LerpBuilder(f =>

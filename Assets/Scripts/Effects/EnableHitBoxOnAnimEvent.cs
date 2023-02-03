@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using Licht.Impl.Events;
 using Licht.Impl.Orchestration;
+using Licht.Unity.Extensions;
 using Licht.Unity.Objects;
 using Licht.Unity.Physics;
 using UnityEngine;
@@ -18,11 +20,13 @@ public class EnableHitBoxOnAnimEvent : BaseGameObject
 
     public event Action<Collider2D[]> OnCollide;
     private Vector3 _originalLocalPosition;
+    private LichtPhysics _physics;
 
     protected override void OnAwake()
     {
         base.OnAwake();
         _originalLocalPosition = Collider.transform.localPosition;
+        _physics = this.GetLichtPhysics();
         Collider.enabled = false;
     }
     void OnEnable()
@@ -72,9 +76,12 @@ public class EnableHitBoxOnAnimEvent : BaseGameObject
                 useLayerMask = true
             }, _results);
 
-            if (collision > 0)
+            var results = _results.Where(c =>
+                c != null && ShadowComparer.IsZIndexInRange(_physics, Collider, c)).ToArray();
+
+            if (collision > 0 && results.Length>0)
             {
-                OnCollide?.Invoke(_results);
+                OnCollide?.Invoke(results);
                 yield return TimeYields.WaitMilliseconds(GameTimer, 25);
                 Collider.enabled = false;
             }
