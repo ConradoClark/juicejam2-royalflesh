@@ -9,6 +9,7 @@ public class AIAction_MoveTowardsPlayer : BaseAIAction
 
     public override IEnumerable<IEnumerable<Action>> Execute(BaseEnemyAI source, Func<bool> breakCondition)
     {
+        source.Animator.SetLockOn(false);
         source.Animator.SetWalking(true);
         yield return TimeYields.WaitSeconds(GameTimer, TimeInSeconds, _ =>
         {

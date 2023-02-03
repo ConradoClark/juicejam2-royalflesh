@@ -5,4 +5,6 @@ using UnityEngine;
 
 public class PlayerIdentifier : SceneObject<PlayerIdentifier>
 {
+    public Transform ShadowRef;
+    public CharacterAnimController AnimController;
 }

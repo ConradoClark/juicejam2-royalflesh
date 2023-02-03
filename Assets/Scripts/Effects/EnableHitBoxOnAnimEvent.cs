@@ -11,7 +11,7 @@ using UnityEngine;
 public class EnableHitBoxOnAnimEvent : BaseGameObject
 {
     public CustomAnimationEventListener AnimEventListener;
-    public CharacterAnimController CharacterAnimController;
+    public LatestDirectionRef LastDirectionRef;
     public LichtPhysicsObject PhysicsObject;
     public Collider2D Collider;
     public LayerMask LayerToCheck;
@@ -53,10 +53,7 @@ public class EnableHitBoxOnAnimEvent : BaseGameObject
         if (obj.Source != AnimEventListener) return;
         if (obj.AnimEvent.EventName != EventName) return;
 
-        var latestDirection = CharacterAnimController != null
-            ? CharacterAnimController.LatestDirection
-            : PhysicsObject != null ? PhysicsObject.LatestDirection
-                : Vector2.one;
+        var latestDirection = LastDirectionRef.LatestDirection;
 
         Collider.enabled = true;
         Collider.transform.localPosition = new Vector3(_originalLocalPosition.x * Mathf.Sign(latestDirection.x),

@@ -9,9 +9,14 @@ public class HPCounter : BaseUIObject
     public float FullHealthSize;
     public float EmptyHealthSize;
 
+    public bool AutoLink;
+
     private void OnEnable()
     {
-
+        if (AutoLink)
+        {
+            LinkEvents();
+        }
     }
     private void OnDisable()
     {

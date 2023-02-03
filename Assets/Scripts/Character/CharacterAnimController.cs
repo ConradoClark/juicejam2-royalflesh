@@ -13,7 +13,7 @@ public class CharacterAnimController : BaseGameObject
     public LichtTopDownMoveController CharacterController;
     public Animator Animator;
     private SpriteRenderer[] _sprites;
-    private bool _flip;
+    public bool Flip { get; private set; }
 
     protected override void OnAwake()
     {
@@ -59,11 +59,11 @@ public class CharacterAnimController : BaseGameObject
 
     public void Update()
     {
-        _flip = CharacterController.LatestDirection.x < 0;
-        Animator.SetBool("FlipX", _flip);
+        Flip = CharacterController.LatestDirection.x < 0;
+        Animator.SetBool("FlipX", Flip);
         foreach (var sprite in _sprites)
         {
-            sprite.flipX = _flip;
+            sprite.flipX = Flip;
         }
     }
 
