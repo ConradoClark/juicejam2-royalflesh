@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64d0e0015cd8c5d4d9e0aca0b3d72498, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TargetDistance: 1
+  TargetDistance: 1.5
   Ref: {fileID: 2357262559109959982}
 --- !u!1 &69206956
 GameObject:
@@ -250,7 +250,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67cb71f71f854424aa7cf44b0b14e1a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CooldownTimeInMs: 1000
+  Offset: {x: 0, y: 0.6, z: 0}
+  TelegraphIcon: {fileID: 11400000, guid: 847e922e1373c824facef1ecec35f864, type: 2}
+  TelegraphTimeInSeconds: 500
+  CooldownTimeInMs: 1500
 --- !u!1 &412374850
 GameObject:
   m_ObjectHideFlags: 0
@@ -364,6 +367,52 @@ MonoBehaviour:
   EventName: AtkImpact
   PhysicsObject: {fileID: 2357262559416291650}
   FlipEffectOnFlipX: 1
+--- !u!1 &592977046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 592977047}
+  - component: {fileID: 592977048}
+  m_Layer: 8
+  m_Name: MoveAroundPlayerFor0.5Sec
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &592977047
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592977046}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2357262558751054133}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &592977048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592977046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c4b9ac6e07b36b4096b4c3600c43a2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimeInSeconds: 0.5
+  SpeedMultiplier: 1
 --- !u!1 &996074184
 GameObject:
   m_ObjectHideFlags: 0
@@ -461,6 +510,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _reference: {fileID: 2357262559416291650}
   Animator: {fileID: 2357262559416291651}
+  Stats: {fileID: 0}
   _patterns:
   - Name: LockOnWhenClose
     Priority: 0
@@ -607,7 +657,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TimeInSeconds: 1
-  Speed: 0.5
 --- !u!1 &2357262558148871683
 GameObject:
   m_ObjectHideFlags: 0
@@ -665,7 +714,7 @@ MonoBehaviour:
     useOutsideNormalAngle: 0
     layerMask:
       serializedVersion: 2
-      m_Bits: 128
+      m_Bits: 384
     minDepth: 0
     maxDepth: 0
     minNormalAngle: 0
@@ -902,6 +951,7 @@ Transform:
   - {fileID: 2357262559412305364}
   - {fileID: 2357262557667780436}
   - {fileID: 291626090}
+  - {fileID: 592977047}
   m_Father: {fileID: 2357262558754220134}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -954,6 +1004,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _reference: {fileID: 2357262559416291650}
   Animator: {fileID: 2357262559416291651}
+  Stats: {fileID: 2357262558071878991}
   _patterns:
   - Name: GoTowardsPlayer
     Priority: 1
@@ -966,12 +1017,20 @@ MonoBehaviour:
     Condition: {fileID: 272420728}
     Actions:
     - {fileID: 291626091}
+    - {fileID: 592977048}
     Enabled: 1
-  - Name: SometimesDoNothing
+  - Name: SometimesWalk
     Priority: 3
     Condition: {fileID: 272420728}
     Actions:
     - {fileID: 2357262559412305365}
+    Enabled: 1
+  - Name: SometimesDoNothingThenWalk
+    Priority: 4
+    Condition: {fileID: 272420728}
+    Actions:
+    - {fileID: 2357262559412305365}
+    - {fileID: 592977048}
     Enabled: 1
   _breakConditions: []
 --- !u!1 &2357262559109959981
@@ -1251,6 +1310,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PhysicsObject: {fileID: 2357262559416291650}
   CanBeHit: 1
+  Speed: 0.5
   MaxHP: 3
 --- !u!114 &4683576287495803616
 MonoBehaviour:

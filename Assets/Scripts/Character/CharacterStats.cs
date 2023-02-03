@@ -11,7 +11,7 @@ public class CharacterStats : BaseGameObject
     public LichtPhysicsObject PhysicsObject;
 
     public bool CanBeHit;
-
+    public float Speed;
     public bool BeingHit { get; private set; }
 
     public int MaxHP;

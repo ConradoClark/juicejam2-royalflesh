@@ -1,20 +1,23 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using Licht.Impl.Orchestration;
+using Random = UnityEngine.Random;
 
-public class AIAction_MoveTowardsPlayer : BaseAIAction
+public class AIAction_WalkAroundPlayer : BaseAIAction
 {
     public float TimeInSeconds;
+    public float SpeedMultiplier = 1;
 
     public override IEnumerable<IEnumerable<Action>> Execute(BaseEnemyAI source, Func<bool> breakCondition)
     {
-        source.Animator.SetLockOn(false);
         source.Animator.SetWalking(true);
+        var direction = Random.insideUnitCircle;
         yield return TimeYields.WaitSeconds(GameTimer, TimeInSeconds, _ =>
         {
-            var direction = (PlayerIdentifier.Instance().transform.position - source.Reference.transform.position)
-                .normalized;
-            source.Reference.ApplySpeed(direction * source.Stats.Speed);
+            source.Reference.ApplySpeed(direction * source.Stats.Speed * SpeedMultiplier);
         });
         source.Animator.SetWalking(false);
     }

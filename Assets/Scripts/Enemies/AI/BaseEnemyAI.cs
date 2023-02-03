@@ -32,6 +32,8 @@ public class BaseEnemyAI : BaseGameObject
 
     public EnemyAnimController Animator;
 
+    public CharacterStats Stats;
+
     [SerializeField]
     private AIPattern[] _patterns;
 

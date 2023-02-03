@@ -59,6 +59,7 @@ public class EnemyAnimController : BaseGameObject
     private void Update()
     {
         if (_knockBack) return;
+        if (Animator.GetCurrentAnimatorStateInfo(0).IsTag("Attack")) return;
 
         Flip = IsLockedOn ? _player.ShadowRef.position.x < transform.position.x : PhysicsObject.LatestDirection.x < 0;
 

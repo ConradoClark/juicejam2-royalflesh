@@ -1,0 +1,1455 @@
+fileFormatVersion: 2
+guid: 023608a340196aa48a7d53ca6f3b2d85
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 414
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d0bab877a97d040a3867c655cbee36
+      internalID: 445604558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 414
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a370a01ae77b24d8a3064321f3b177
+      internalID: 59054618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 414
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875a2548e8e89094db50ba067c2083d2
+      internalID: 2132770944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_3
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 414
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d288c77d58211d94a9fbf3babb8035bb
+      internalID: 225877813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_4
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 414
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767c7752206a03543a2a751e62af7da6
+      internalID: 591335080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 414
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e831bc84347af4249a48511f418a3278
+      internalID: 87519212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_6
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 414
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dbdd70e8bc62564fadfa4ccad18ff2b
+      internalID: -1436116359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_7
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 414
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03eb914722b639b41a14dea2f901bc57
+      internalID: -187467248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_8
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 414
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1f208ba3039b7438aaf38de2b6f551
+      internalID: -219018660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 345
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7391c2aae4a12334da77e113d035e510
+      internalID: -276102031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_10
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 345
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56acaf64234f6f2428e83604c2aebbd8
+      internalID: -269767075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_11
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 345
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6a20be00ba6e545aa0226fe4d30064
+      internalID: 801303183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_12
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 345
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7018211d71ca99b4ea4e2657a65e851f
+      internalID: -619466976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_13
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 345
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c34b52855890474c9925db85b29588f
+      internalID: 960371228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_14
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 345
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9066617d97e8d394080cb8d6ed544d64
+      internalID: -630655438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_15
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 345
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0e2e36fda48374aa932ef9636dd4ef
+      internalID: 615098958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_16
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 345
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5708a0f2819e35449995e93c9829398b
+      internalID: 484192853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_17
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 345
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8ad2d7ecdc9a84b877f984cd4a07d0
+      internalID: -976824251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 276
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400868c09c664d74c995e34698742ba6
+      internalID: -301995768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_19
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 276
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339214a1fa0d50843a2ff3709a70f661
+      internalID: -1617257578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_20
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 276
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c7c782aa5ab794a9e95af4c7aa0b33
+      internalID: 523648867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_21
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 276
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1413569ad9b79cf4bb43ec1a0dc96670
+      internalID: -597153793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_22
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 276
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d24e418f0b1d24c878f2e225f85363
+      internalID: -555700654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_23
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 276
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5388a1f42bbf8fe4aa13bf5578bf961b
+      internalID: 1404015662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_24
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 276
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9bda621f9cfe5441b4c8ffcef36579e
+      internalID: -1627087610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_25
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 276
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ed2e6ed0fc0274c872d74b26a89cc8
+      internalID: 1791015501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_26
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 276
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513cd7e8dbe435642ad93dcf1323e584
+      internalID: -1887814857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 207
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9938c0f218b91024bb798d7e308aa549
+      internalID: -757681280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_28
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 207
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e95def8bbfce147a9d6720079288ae
+      internalID: -118660237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_29
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 207
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f475240b711459e4589e5ef9dfbaa35b
+      internalID: 1822145136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_30
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 207
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452b3a1770dbf5c44a26edbaeb8c6333
+      internalID: 192511321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_31
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 207
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56c8e564c05aba47883b7e5138e9348
+      internalID: 1257665933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_32
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 207
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc54edf6ef0d3943b610e438ad3222e
+      internalID: 201058646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_33
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 207
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0b9b20593989a4f995b809817fb4f5
+      internalID: 229694852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_34
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 207
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ba0eb93f7f9fe40942ed02e70b89e4
+      internalID: 560544020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_35
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 207
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f700187a33fb264f8f945dfcca8c736
+      internalID: -751198836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 138
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f8a2899acc0ea4284507a75f5383c3
+      internalID: -947724150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_37
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 138
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5441dba6105f94f408b3dbe06408c6f8
+      internalID: 1197775814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_38
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 138
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04bf5ed4ef34a1441951c18c94b6c874
+      internalID: 1561053186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_39
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 138
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef6b797296c39a4f985193d724c8d18
+      internalID: 2078017338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_40
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 138
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a24115cc8ae5d345bfde33acd917418
+      internalID: -580829399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_41
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 138
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02df8a62d0e5a0a49acb7dab9fe05ae2
+      internalID: -920528487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_42
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 138
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce95f157a490c34b88e11025e47e0db
+      internalID: 968256589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_43
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 138
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38bfbb30ff7eab24ab8759b82c74f3d0
+      internalID: -697135464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_44
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 138
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38c4e2aa62d5144182edfaa7b9ff9ac
+      internalID: 1363019732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 69
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865fd3d5366d7c848a9ceffa5c4cd6ce
+      internalID: 538982686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_46
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 69
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd577c1923e5a34f82bcbfa20229a6b
+      internalID: -1173998177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_47
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 69
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf4f7c99aaca5a41832e55411307b6d
+      internalID: -1123929406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_48
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 69
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc874675c58740f47bd87807a4fe5142
+      internalID: 1191471620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_49
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 69
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd31854335a744445a7d83d08c5547e6
+      internalID: -1689348883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_50
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 69
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c2e16dc0d8bbe4e8eda46025244e46
+      internalID: 1432200921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_51
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 69
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535cf499016773841a1459e8a7bb0bb1
+      internalID: 490606950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_52
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 69
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e996fe0fb0ace2b4ead5ce9c48233e64
+      internalID: 1478833375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_53
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 69
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c0d765b4086ec428da5ba26ad48049
+      internalID: -816675659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25390050daf4c81458df19c64344cc0d
+      internalID: 1684038514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_55
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 0
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42ff06a28a4fd64eaf5f838bccc8ede
+      internalID: 1898550915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_56
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950c62f9da47c1248925c4bc81eb1ae3
+      internalID: 1537117896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_57
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 0
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948d4001d9fa7a14e98b8c63467e3c98
+      internalID: -1643895942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_58
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cae027215c485a4e8a4ba152f452023
+      internalID: 314457224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarningSignAnim_51x69_59
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 0
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c521302ad5479144aa48b58a58fc3efc
+      internalID: 824441646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      WarningSignAnim_51x69_23: 1404015662
+      WarningSignAnim_51x69_4: 591335080
+      WarningSignAnim_51x69_34: 560544020
+      WarningSignAnim_51x69_50: 1432200921
+      WarningSignAnim_51x69_16: 484192853
+      WarningSignAnim_51x69_29: 1822145136
+      WarningSignAnim_51x69_7: -187467248
+      WarningSignAnim_51x69_18: -301995768
+      WarningSignAnim_51x69_47: -1123929406
+      WarningSignAnim_51x69_21: -597153793
+      WarningSignAnim_51x69_3: 225877813
+      WarningSignAnim_51x69_53: -816675659
+      WarningSignAnim_51x69_45: 538982686
+      WarningSignAnim_51x69_38: 1561053186
+      WarningSignAnim_51x69_41: -920528487
+      WarningSignAnim_51x69_10: -269767075
+      WarningSignAnim_51x69_8: -219018660
+      WarningSignAnim_51x69_49: -1689348883
+      WarningSignAnim_51x69_22: -555700654
+      WarningSignAnim_51x69_14: -630655438
+      WarningSignAnim_51x69_40: -580829399
+      WarningSignAnim_51x69_6: -1436116359
+      WarningSignAnim_51x69_31: 1257665933
+      WarningSignAnim_51x69_32: 201058646
+      WarningSignAnim_51x69_37: 1197775814
+      WarningSignAnim_51x69_58: 314457224
+      WarningSignAnim_51x69_33: 229694852
+      WarningSignAnim_51x69_0: 445604558
+      WarningSignAnim_51x69_15: 615098958
+      WarningSignAnim_51x69_35: -751198836
+      WarningSignAnim_51x69_48: 1191471620
+      WarningSignAnim_51x69_51: 490606950
+      WarningSignAnim_51x69_17: -976824251
+      WarningSignAnim_51x69_1: 59054618
+      WarningSignAnim_51x69_43: -697135464
+      WarningSignAnim_51x69_44: 1363019732
+      WarningSignAnim_51x69_27: -757681280
+      WarningSignAnim_51x69_55: 1898550915
+      WarningSignAnim_51x69_25: 1791015501
+      WarningSignAnim_51x69_20: 523648867
+      WarningSignAnim_51x69_39: 2078017338
+      WarningSignAnim_51x69_42: 968256589
+      WarningSignAnim_51x69_36: -947724150
+      WarningSignAnim_51x69_11: 801303183
+      WarningSignAnim_51x69_26: -1887814857
+      WarningSignAnim_51x69_12: -619466976
+      WarningSignAnim_51x69_30: 192511321
+      WarningSignAnim_51x69_57: -1643895942
+      WarningSignAnim_51x69_52: 1478833375
+      WarningSignAnim_51x69_46: -1173998177
+      WarningSignAnim_51x69_54: 1684038514
+      WarningSignAnim_51x69_28: -118660237
+      WarningSignAnim_51x69_5: 87519212
+      WarningSignAnim_51x69_9: -276102031
+      WarningSignAnim_51x69_56: 1537117896
+      WarningSignAnim_51x69_24: -1627087610
+      WarningSignAnim_51x69_13: 960371228
+      WarningSignAnim_51x69_19: -1617257578
+      WarningSignAnim_51x69_2: 2132770944
+      WarningSignAnim_51x69_59: 824441646
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
