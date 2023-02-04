@@ -12,6 +12,7 @@ public class StageIntro : BaseGameObject
     public GameObject Portrait;
     public Vector3 PortraitInitialPosition;
     public CharacterIntro CharacterIntro;
+    public AudioSource IntroSound;
     public bool IsOver { get; private set; }
 
     private void OnEnable()
@@ -22,6 +23,7 @@ public class StageIntro : BaseGameObject
     private IEnumerable<IEnumerable<Action>> RunIntro()
     {
         IsOver = false;
+        IntroSound.Play();
         var curtains = Curtains.GetAccessor()
             .Color
             .A.SetTarget(0)
