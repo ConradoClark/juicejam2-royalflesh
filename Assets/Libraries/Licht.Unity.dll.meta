@@ -6,6 +6,7 @@ PluginImporter:
   iconMap: {}
   executionOrder:
     Licht.Unity.BasicToolbox: -80
+    Licht.Unity.Effects.EffectsManager: -10
   defineConstraints: []
   isPreloaded: 0
   isOverridable: 0

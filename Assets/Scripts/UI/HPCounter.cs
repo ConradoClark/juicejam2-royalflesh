@@ -28,6 +28,7 @@ public class HPCounter : BaseUIObject
     public void LinkEvents()
     {
         if (StatsRef == null) return;
+        AdjustBarSize(StatsRef.MaxHP);
         StatsRef.OnDamage += StatsRef_OnDamage;
         StatsRef.OnHeal += StatsRef_OnHeal;
     }

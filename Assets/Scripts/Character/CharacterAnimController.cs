@@ -71,10 +71,20 @@ public class CharacterAnimController : BaseGameObject
     {
         Animator.SetTrigger("RightAtk");
     }
-
+    
     public void TriggerLeftAttack()
     {
         Animator.SetTrigger("LeftAtk");
+    }
+
+    public void TriggerJump()
+    {
+        Animator.SetTrigger("Jump");
+    }
+
+    public void SetGrounded(bool grounded)
+    {
+        Animator.SetBool("Grounded", grounded);
     }
 
     public void SetHurting(bool hurting)

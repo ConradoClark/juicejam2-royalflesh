@@ -67,7 +67,7 @@ public class CharacterCombatHandler : BaseGameObject
     {
         while (_enabled)
         {
-            if (_isAtkBuffering)
+            if (_isAtkBuffering && !MoveController.IsBlocked)
             {
                 _isAtkBuffering = false;
                 MoveController.BlockMovement(this);

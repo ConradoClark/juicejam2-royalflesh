@@ -19,7 +19,8 @@ public class EnemyPortraitSpawner : MonoBehaviour
 
     private void OnEnable()
     {
-        if (!_poolManager.Effects[PortraitPrefab].TryGetFromPool(out var portrait)) return;
+        if (_poolManager == null) return;
+        if (!_poolManager.GetEffect(PortraitPrefab).TryGetFromPool(out var portrait)) return;
         Portrait = portrait;
         Portrait.Actor = gameObject;
         Portrait.HPCounter.StatsRef = CharacterStats;

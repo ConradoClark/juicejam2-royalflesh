@@ -43,6 +43,7 @@ public class BaseEnemyAI : BaseGameObject
     private void OnEnable()
     {
         _enabled = true;
+        DefaultMachinery.AddBasicMachine(RunAI());
     }
 
     private void OnDisable()
@@ -54,7 +55,6 @@ public class BaseEnemyAI : BaseGameObject
     {
         base.OnAwake();
         _enabled = isActiveAndEnabled;
-        DefaultMachinery.AddBasicMachine(RunAI());
     }
 
     private IEnumerable<IEnumerable<Action>> RunAI()
