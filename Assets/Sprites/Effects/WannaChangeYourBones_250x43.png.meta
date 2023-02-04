@@ -1,0 +1,1455 @@
+fileFormatVersion: 2
+guid: d1a1b28333649a14982a4531e82c9225
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 258
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a451713e367bb2349b59b52313b4445c
+      internalID: 109005877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 258
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf113a56f579094d88763d933117b66
+      internalID: 1532955271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_2
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 258
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4980311bab568dd47bc3c8db19ce7a27
+      internalID: 1612105804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_3
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 258
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac72a85203902b34b9b506844059d0e3
+      internalID: 666202777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_4
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 258
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c941877eae8d14988b9895a73680b6
+      internalID: -494795895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_5
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 258
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd74f283cf2d0c54ab6eb3706d51829b
+      internalID: 115208233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_6
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 258
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28bbab7894d87748ac4acf25e5bca60
+      internalID: -417407703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_7
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 258
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b7dd25ea637bb49b4201d3b8b905e7
+      internalID: -920680440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_8
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 258
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3676468fefb2c43bbd39c16550278b
+      internalID: -479177073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 215
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760f7671a1102fa49adb171ca4290361
+      internalID: -31645058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_10
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 215
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff704119f54dc5f4481c01ca7203cdc1
+      internalID: 367186047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_11
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 215
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7884badeb72e54a94239255f279e35
+      internalID: 1050042927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_12
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 215
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47d034b32b144d4591799c14f420c23
+      internalID: -1290903739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_13
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 215
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9db9e5582fd9f42acaebbc4641159a
+      internalID: -845625353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_14
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 215
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49338a68235437448ad9a53b83ab0a11
+      internalID: -2020779866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_15
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 215
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8f7feafe5ae6840968c4c5d6466102
+      internalID: 1787817923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_16
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 215
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe539fa7bb5bd4479fd7db55c4be514
+      internalID: 1380683903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_17
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 215
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53884363d45654b4f9670693733d0363
+      internalID: 892549888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 172
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0193d3d29fbddc478fc553a4b2dc980
+      internalID: 1295282435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_19
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 172
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3e5e4def32ec84183d58d9570be115
+      internalID: -875835201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_20
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 172
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c90ea788dea694d931382974ffeac7
+      internalID: 818243908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_21
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 172
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53cfbc481571884ca77b0a671e787fa
+      internalID: 451796496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_22
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 172
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9413f712bf0ab4dba2c479958dc63b
+      internalID: -2065327251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_23
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 172
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996ec98ac0795e044859837f51d5b045
+      internalID: -786131096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_24
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 172
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482c7cafc070b28419465495869b245d
+      internalID: 918664413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_25
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 172
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868c9118796396843b420a13bb049c13
+      internalID: 1024400475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_26
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 172
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb6024727f44c548a20f644dd40c197
+      internalID: 741953270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 129
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121224c1d974ae14f93ef1e5698c8b11
+      internalID: -1620820811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_28
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 129
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6876adaf6298b4183d41b037c87f19
+      internalID: -1864319047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_29
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 129
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46bfe064c0ecef468c8a7b6106e7223
+      internalID: -1483510883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_30
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 129
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f3f28b237fed549994c299624238ba
+      internalID: -184574007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_31
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 129
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb05331255e83c458f4e40b32786302
+      internalID: -1699863500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_32
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 129
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fbdd5c28a066bf408a9887c4355ce31
+      internalID: -878841870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_33
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 129
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1139ccbf1f2482f4a93326f66254e2cd
+      internalID: -1450655288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_34
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 129
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f8ea24b395aba45b0ffde833360554
+      internalID: 574432211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_35
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 129
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94446ea07df208488679e54599e7c5f
+      internalID: 1709458847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 86
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb65bd8907290f14784ef67aa4d9f6d8
+      internalID: -1991728123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_37
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 86
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611c920e544f2ac45befd2c90657e69d
+      internalID: 1171883202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_38
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 86
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821566805a0e01246a711f9a6f785fed
+      internalID: 1700845909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_39
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 86
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c96d08e96ba4449a5e1a737b328b16
+      internalID: -136234334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_40
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 86
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1badaba6bdf37d84a9261b7d24a58a68
+      internalID: -1979429338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_41
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 86
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3894d15e180a74ea09e9e345bd93d9
+      internalID: -394834029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_42
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 86
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f53c9f7915b38449d0b1c861a0b432
+      internalID: -480775300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_43
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 86
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25fdf5a513a066d42984a27c303740ab
+      internalID: -163135638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_44
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 86
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c037f3bb795ce04aa6b0359d0134a83
+      internalID: 409632033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 43
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcabb1f5cfe31f448a8e080402dc4c3a
+      internalID: -1688926189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_46
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 43
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e21a415121936e4eba0e78a0c672d12
+      internalID: 465473618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_47
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 43
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be19a8fb5a4666d4ca8da086675e3a7c
+      internalID: -111057312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_48
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 43
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f243ecddbd280164c9d81ed67304b082
+      internalID: 509646403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_49
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 43
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf97e35bcf64484298aa590e2a455b1
+      internalID: 1645220555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_50
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 43
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344b368b10927dd45b233c67ee5827ac
+      internalID: 1697013809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_51
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 43
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c6a044b9d37c8489f31f41aad2c0e0
+      internalID: 1535885027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_52
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 43
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28243698ac308749ab88c3fb7364857
+      internalID: -134957903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_53
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 43
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcdb1466d412a8f4c890521709d78c3a
+      internalID: 1536002446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d63ee8220e5b34f9460333cc8d4e78
+      internalID: 574084433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_55
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85dd8fe067e01b24991139c693efd7b3
+      internalID: 1349927898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_56
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34527a6fb0baae549abe16ab7c200436
+      internalID: 628986902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_57
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc20ec610c9ea04a8d39081fccd13ca
+      internalID: -338743031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_58
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dde3184c042ee548bfc079562c524be
+      internalID: -1199327043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WannaChangeYourBones_250x43_59
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 0
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0926c6aaca6b24793aa3f91ed57cc4
+      internalID: 1068181140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      WannaChangeYourBones_250x43_41: -394834029
+      WannaChangeYourBones_250x43_48: 509646403
+      WannaChangeYourBones_250x43_57: -338743031
+      WannaChangeYourBones_250x43_25: 1024400475
+      WannaChangeYourBones_250x43_16: 1380683903
+      WannaChangeYourBones_250x43_52: -134957903
+      WannaChangeYourBones_250x43_30: -184574007
+      WannaChangeYourBones_250x43_33: -1450655288
+      WannaChangeYourBones_250x43_9: -31645058
+      WannaChangeYourBones_250x43_56: 628986902
+      WannaChangeYourBones_250x43_1: 1532955271
+      WannaChangeYourBones_250x43_35: 1709458847
+      WannaChangeYourBones_250x43_59: 1068181140
+      WannaChangeYourBones_250x43_4: -494795895
+      WannaChangeYourBones_250x43_42: -480775300
+      WannaChangeYourBones_250x43_45: -1688926189
+      WannaChangeYourBones_250x43_58: -1199327043
+      WannaChangeYourBones_250x43_47: -111057312
+      WannaChangeYourBones_250x43_11: 1050042927
+      WannaChangeYourBones_250x43_21: 451796496
+      WannaChangeYourBones_250x43_38: 1700845909
+      WannaChangeYourBones_250x43_24: 918664413
+      WannaChangeYourBones_250x43_5: 115208233
+      WannaChangeYourBones_250x43_34: 574432211
+      WannaChangeYourBones_250x43_12: -1290903739
+      WannaChangeYourBones_250x43_36: -1991728123
+      WannaChangeYourBones_250x43_10: 367186047
+      WannaChangeYourBones_250x43_50: 1697013809
+      WannaChangeYourBones_250x43_40: -1979429338
+      WannaChangeYourBones_250x43_53: 1536002446
+      WannaChangeYourBones_250x43_51: 1535885027
+      WannaChangeYourBones_250x43_27: -1620820811
+      WannaChangeYourBones_250x43_17: 892549888
+      WannaChangeYourBones_250x43_44: 409632033
+      WannaChangeYourBones_250x43_14: -2020779866
+      WannaChangeYourBones_250x43_37: 1171883202
+      WannaChangeYourBones_250x43_55: 1349927898
+      WannaChangeYourBones_250x43_18: 1295282435
+      WannaChangeYourBones_250x43_49: 1645220555
+      WannaChangeYourBones_250x43_46: 465473618
+      WannaChangeYourBones_250x43_7: -920680440
+      WannaChangeYourBones_250x43_2: 1612105804
+      WannaChangeYourBones_250x43_43: -163135638
+      WannaChangeYourBones_250x43_15: 1787817923
+      WannaChangeYourBones_250x43_0: 109005877
+      WannaChangeYourBones_250x43_13: -845625353
+      WannaChangeYourBones_250x43_23: -786131096
+      WannaChangeYourBones_250x43_39: -136234334
+      WannaChangeYourBones_250x43_54: 574084433
+      WannaChangeYourBones_250x43_32: -878841870
+      WannaChangeYourBones_250x43_6: -417407703
+      WannaChangeYourBones_250x43_28: -1864319047
+      WannaChangeYourBones_250x43_29: -1483510883
+      WannaChangeYourBones_250x43_20: 818243908
+      WannaChangeYourBones_250x43_31: -1699863500
+      WannaChangeYourBones_250x43_8: -479177073
+      WannaChangeYourBones_250x43_19: -875835201
+      WannaChangeYourBones_250x43_22: -2065327251
+      WannaChangeYourBones_250x43_26: 741953270
+      WannaChangeYourBones_250x43_3: 666202777
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

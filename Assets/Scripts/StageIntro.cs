@@ -12,6 +12,8 @@ public class StageIntro : BaseGameObject
     public GameObject Portrait;
     public Vector3 PortraitInitialPosition;
     public CharacterIntro CharacterIntro;
+    public bool IsOver { get; private set; }
+
     private void OnEnable()
     {
         DefaultMachinery.AddBasicMachine(RunIntro());
@@ -19,6 +21,7 @@ public class StageIntro : BaseGameObject
 
     private IEnumerable<IEnumerable<Action>> RunIntro()
     {
+        IsOver = false;
         var curtains = Curtains.GetAccessor()
             .Color
             .A.SetTarget(0)
@@ -44,5 +47,6 @@ public class StageIntro : BaseGameObject
             .Combine(CharacterIntro.RunIntro().AsCoroutine());
 
         LevelIntroEffect.SetActive(false);
+        IsOver = true;
     }
 }

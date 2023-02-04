@@ -252,7 +252,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Offset: {x: 0, y: 0.6, z: 0}
   TelegraphIcon: {fileID: 11400000, guid: 847e922e1373c824facef1ecec35f864, type: 2}
-  TelegraphTimeInSeconds: 500
+  TelegraphTimeInSeconds: 750
   CooldownTimeInMs: 1500
 --- !u!1 &412374850
 GameObject:
@@ -1244,7 +1244,7 @@ Transform:
   - {fileID: 2357262558754220134}
   - {fileID: 69206957}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2357262559416291650
 MonoBehaviour:

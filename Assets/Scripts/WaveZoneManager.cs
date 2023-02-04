@@ -71,6 +71,8 @@ public class WaveZoneManager : SceneObject<WaveZoneManager>
 
     private IEnumerable<IEnumerable<Action>> HandleZones()
     {
+        while (!Intro.IsOver) yield return TimeYields.WaitOneFrameX;
+
         CurrentZoneState = ZoneState.GoMode;
         var orderedZones = Zones.OrderBy(zone => zone.transform.position.x).ToArray();
         var currentZoneIndex = 0;
