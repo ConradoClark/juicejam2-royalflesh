@@ -25,6 +25,13 @@ public class CharacterStats : BaseGameObject
         }
     }
 
+    public event Action OnConnectingHit;
+
+    public void CountHit()
+    {
+        OnConnectingHit?.Invoke();
+    }
+
     private void OnDisable()
     {
         PhysicsObject.RemoveCustomObject<CharacterStats>();

@@ -32,6 +32,7 @@ public class DamageOnAttackContact : BaseGameObject
             if (!_physics.TryGetPhysicsObjectByCollider(obj, out var target)) continue;
             if (!target.TryGetCustomObject(out CharacterStats stats)) continue;
             stats.Damage(Damage);
+            Stats.CountHit();
         }
     }
 }
