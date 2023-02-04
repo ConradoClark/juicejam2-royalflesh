@@ -1,0 +1,4711 @@
+fileFormatVersion: 2
+guid: 6c1306e0944ca6247aec751704b766da
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DropStars_31x33_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 456.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa317098f4bcf947a63780b1140865a
+      internalID: 736539809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 456.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c56f49e600f4d5449702061b00fe053
+      internalID: 1428543565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_2
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 456.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2109a1fa86c5dc448288c9c87b73409
+      internalID: -1071994907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_3
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 456.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e744f4db4a610c40b710c123a80aaa7
+      internalID: -1098251747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_4
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 456.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6094ee6efcb62408d7d501a9e51157
+      internalID: -309152070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_5
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 456.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ec113ef126c904199c5c689835266a
+      internalID: 549317401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_6
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 456.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9206f516a248c488e946e157bcac3d
+      internalID: 1019437590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_7
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 456.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b37d6b2656d6584eaad9cbd74327798
+      internalID: 769577449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_8
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 456.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2315f4868b9b90840822ca967e110dd7
+      internalID: -878908315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_9
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 456.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b330ee5f54abcb4bb9718716f933476
+      internalID: -2101180225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_10
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 456.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb48e920a9bf73844a68f7b81f4b9f5b
+      internalID: -1651370887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_11
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 456.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4507bf956ecdecf4ba185167c4b890ee
+      internalID: 1872083857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_12
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 456.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9866840911d984d9a5a913502b8f0b
+      internalID: 793301470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_13
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 456.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267790682232a814b8ac2e1e8d99c956
+      internalID: -2010933617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_14
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 456.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13eb6b5e7ac774c47afe3551c0d4ae70
+      internalID: -42288067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_15
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 456.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f762989c515de574f9936e9c155fb9a3
+      internalID: -381432660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 418.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6534c6b00b7edbd449c3191b56a375f6
+      internalID: -38277121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_17
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 418.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f89bb1e625983418e83fbee1cc3c3d
+      internalID: 654199855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_18
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 418.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5b6cae916aa484a89ada66250e853e
+      internalID: -954018343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_19
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 418.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bff972659cb52b4193f119198d4bebf
+      internalID: 1082653045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_20
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 418.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9887948cfebe44bbe0420c38cb5abb
+      internalID: 2063466856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_21
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 418.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1127561ae595654b9eb81dda151b835
+      internalID: 64790653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_22
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 418.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ed6321482f8d643b79a54b0ac9ff0b
+      internalID: -2027775645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_23
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 418.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0343c789f09d9408b1de37cc401c6a
+      internalID: -511904081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_24
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 418.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c51ebe6aee3e5a4abd243a96cf1c420
+      internalID: -1271924092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_25
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 418.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c918e765cc208a34cb9248fd0a19656b
+      internalID: -2037481780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_26
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 418.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220a5609fb2036e478a39a14d455c0b1
+      internalID: 1821764291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_27
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 418.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5f821bd562cd24882406b720dd1eca
+      internalID: -543664723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_28
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 418.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4fad2acc9acf5045a1e91be4ab88a41
+      internalID: -555612978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_29
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 418.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2745e7b2fe395c4478feb7382f49bc06
+      internalID: 409589596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_30
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 418.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5bdf7949490a5b49baae3ab7be085f7
+      internalID: 1851303001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_31
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 418.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd7f5b9417583745af6bc4bf81c2568
+      internalID: -677730387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 380.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3dac6c334bb3f4aa84c5481c008dae
+      internalID: -497557082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_33
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 380.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00fe27581929094b94ae0a83bd6649d
+      internalID: 1203544989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_34
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 380.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3590a18f78d1ed64ca3b8086081cbf8f
+      internalID: 189547436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_35
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 380.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b86fbdce4ee87040a2263da9b984b0f
+      internalID: 92653454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_36
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 380.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27fea8c613d53f441a9ce2cae0b3eac4
+      internalID: 1458111496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_37
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 380.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744e067f31fcdc047a2d0f40071107a3
+      internalID: -1508004493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_38
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 380.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5ec0658b8fcfd4baecb30a006b0ca1
+      internalID: -1921508751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_39
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 380.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49027842894747646b99541fb7debf9e
+      internalID: -260545943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_40
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 380.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4b0e545098dd04799add2bc118a301
+      internalID: -244847670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_41
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 380.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4cf07f9bed0e846afc00c23a2454e4
+      internalID: 698881374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_42
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 380.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f8665a81b2b134c87f65e2c9d82409
+      internalID: -833717659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_43
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 380.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e556805797eced140937b12273e6ae44
+      internalID: -981386768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_44
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 380.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624df16016b374c4db60d9035f482524
+      internalID: 509788051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_45
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 380.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d90f640c5809f84bb34584004809ede
+      internalID: 1591290491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_46
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 380.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d4e1ec5ff4f9241be786e81edce72d
+      internalID: -734781414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_47
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 380.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e232ec109a73842a2aea000fdd2445
+      internalID: -1173025990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 342.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9100832e7eb17f64dac839be45c86403
+      internalID: -767001345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_49
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 342.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eaadd564f5c7e54b820185ed53d66ad
+      internalID: -1326972154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_50
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 342.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a223d80b79d5968409de315035e74482
+      internalID: 418655358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_51
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 342.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ac9b3608c0b3e4989cf259f2aee9ad
+      internalID: -1300618444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_52
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 342.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115a6444483fef44ba634c17112c9043
+      internalID: 1190510407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_53
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 342.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e32a3709b73ff4da9300bd504b2cd6
+      internalID: 1886278654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_54
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 342.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6df7bacff916cb479d5c1024ec473c0
+      internalID: 88199154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_55
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 342.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8962c4fc8e4d642b7268afc8fd48e5
+      internalID: 1274418425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_56
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 342.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14e7d17f1c7fc24c89c13d338249a25
+      internalID: -1918641351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_57
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 342.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5e6b5992feb8b4e877803f111b42cc
+      internalID: -1306535329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_58
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 342.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02b3f1e23bc6ba45bf29dd75e95faae
+      internalID: -1766249337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_59
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 342.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5fc246fd5b21547b5a4d7eefd908e2
+      internalID: 1714768163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_60
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 342.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d940a0f77e1addf498087fecad612f02
+      internalID: 983421465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_61
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 342.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68dfe2094dd1dad4095a87ca8533d87d
+      internalID: -1525232766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_62
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 342.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3712bc025377e3944a54e451811508bd
+      internalID: -1755352354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_63
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 342.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ba1e5fbb25d464ab62450d1d8467cd
+      internalID: -423074037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9f253fc25431f44bf12407e10a0d5a
+      internalID: 2102832026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_65
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 304.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff254b5a7e05f54e82dd55a2cc1e096
+      internalID: 464419923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_66
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 304.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01979057c5c642748aa64fbf2c702ba4
+      internalID: 340591846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_67
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 304.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30488a44da132d3419ed63ecff6e3312
+      internalID: -1556330104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_68
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 304.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a3ad13347b0384b81b6cfcfe62bb3b
+      internalID: 900538141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_69
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 304.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6b2ea91a3ab5b43bf34d2a9970a1d9
+      internalID: 674233705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_70
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 304.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3ebfe3bca85f84da42a175059a3644
+      internalID: -1893712039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_71
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 304.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f457872dcbccd47b80da625e0d43bd
+      internalID: 79683726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_72
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 304.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6aaf4f9f910504bb7011d6eaec7c28
+      internalID: 1790823455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_73
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 304.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ef67677ae664141a7c141b4cebc9ec
+      internalID: -1828400125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_74
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 304.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0be502ca72f02744a40a81577af6cd6
+      internalID: -1062736005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_75
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 304.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb00c11a79f60143821ec0d3e704f38
+      internalID: 1134345000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_76
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 304.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f929ee071c398c4cab3bf9d3c6b1a4f
+      internalID: -535004676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_77
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 304.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a37d6f0fd3560842ab8ba87cd1b93b2
+      internalID: -976543295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_78
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 304.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e963baa82c5de034ab3406f7ebac5130
+      internalID: 153302088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_79
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 304.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8de1df65041b1409c753e9ac3ec251
+      internalID: 437931408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 266.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13f26b387bd89c4d93aa22c0e517727
+      internalID: -1001050273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_81
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 266.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717b6df2a8b000a4abd6b292a0aab8f9
+      internalID: -1179917023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_82
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 266.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af74587de3c07b47a432aee1c0ea73f
+      internalID: -1454303587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_83
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 266.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc980245ead98274caf74e4f1dfa1374
+      internalID: -690423568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_84
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 266.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862913c7c852769458f8e911e76eb36e
+      internalID: 932370243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_85
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 266.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26944acc7f122b49bd9f9738a650996
+      internalID: -1237724937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_86
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 266.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d24948592352d46b27d46b509a74c2
+      internalID: 397158712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_87
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 266.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93309632fbe5b9848b7675cab289a576
+      internalID: 986261385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_88
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 266.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26acb4dd8a84d7f41ac68ac20389ddd4
+      internalID: 1939922879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_89
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 266.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fe77a814152f446b4be61f2eeca2fc
+      internalID: 1077155986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_90
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 266.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c576925cd047eda459eed904670fdf4f
+      internalID: 1955222190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_91
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 266.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0423264a161c848a736a32f8807e0f
+      internalID: -1355237762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_92
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 266.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7bef8cc8f0975f41af84fbd006080db
+      internalID: -820408718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_93
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 266.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4ee9a2e1956754b85fb394d33d4a63
+      internalID: -1592516498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_94
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 266.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9730ee0ddaad072428bb5fa4350a789a
+      internalID: -569926223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_95
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 266.92307
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66524a2466b66c04f9ce5b8263459aee
+      internalID: -409715587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 228.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fa741c2316bbf4e8ec89f2d7be2e4b
+      internalID: -1004645256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_97
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 228.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30bc5712c3551b4a865f437f71ea95f
+      internalID: -76573074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_98
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 228.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d403687077d9722409fa37eeb21a304f
+      internalID: -18119627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_99
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 228.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98577b183337ee94f9e3c3674298fbab
+      internalID: -1663985799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_100
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 228.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03096b612fe46ae418751ac4a51fe739
+      internalID: 2010761861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_101
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 228.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38562d191a3344f4391292da5bdec57c
+      internalID: -1867261300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_102
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 228.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab0bd41ac48dd344ad635591ec09127
+      internalID: -823603300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_103
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 228.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67056cc4c60e22e44aa64a763fd78b0d
+      internalID: 241486981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_104
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 228.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d97c43a296c8db4b9942cac9218d42d
+      internalID: 1968578649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_105
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 228.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2154ab6a94926674b99d8132702c33bb
+      internalID: 1661939883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_106
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 228.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebccc3a0741e7dc4bb5e471df200779e
+      internalID: -1044720783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_107
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 228.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c02c069e5bc81e4f9fec31d1b8cc884
+      internalID: 337780444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_108
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 228.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbab95cf34f3fc44190da4b4a473b0f3
+      internalID: -600680269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_109
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 228.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089eeccc9e7b239428d9dab9cbfabe67
+      internalID: -1265810857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_110
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 228.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b1ef62938bd2c4599b78280c8c477c
+      internalID: -91315573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_111
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 228.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d65a63979e5f6428ae721ba891f49c
+      internalID: 1153137256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 190.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208184f30cc920245a59ee83b3e34aca
+      internalID: 268512752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_113
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 190.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52511a0ca9b2e094f8f02c1eca879442
+      internalID: -1781231268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_114
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 190.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12496eefe330c1044a2b67db9e19bd2c
+      internalID: -554856482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_115
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 190.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aea1bae87651af468100836707013af
+      internalID: -1112714783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_116
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 190.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e83430380da264fa77a70004f64628
+      internalID: -1297405699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_117
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 190.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1ac9b1cb3129d4f8d151c4aa69b29e
+      internalID: 1633244451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_118
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 190.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37502d25ff1491346adcaa763b6c6cd7
+      internalID: 2048256229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_119
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 190.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63746438ddddd54459379a6e852baec0
+      internalID: -954158926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_120
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 190.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50521c3c8a20fc74e94da8ae17c082f8
+      internalID: 175835198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_121
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 190.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a5635e509bb614da51992761d9f2ed
+      internalID: -1547561596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_122
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 190.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6b71b0cf5c5c947a207d5b01627297
+      internalID: 1550262960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_123
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 190.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c96a44b1952cec4595e5447612f0aef
+      internalID: 1595173208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_124
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 190.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071e58143613dad44b6c9cd80f9ea611
+      internalID: -642559273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_125
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 190.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b00b07d556b324dab1b58d5da896b2
+      internalID: 1018381418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_126
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 190.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328ebab8ae012934796c719fd85b4ae2
+      internalID: 1568365003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_127
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 190.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48055b2c1615694c98118dd0d5f2b3e
+      internalID: -1012728894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 152.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2cf8181a531bd44aa0d2f1c817f671
+      internalID: 960361736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_129
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 152.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516853198a067c04d8b992630d77daf4
+      internalID: -2025156840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_130
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 152.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f980d3d9e5d01cb42b939181aa21fd69
+      internalID: 675308725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_131
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 152.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a6eb3708d6f0c439022cde294bdf1e
+      internalID: 1586530436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_132
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 152.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0912e9f03c5ac14b8867be54b970a39
+      internalID: 1679832505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_133
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 152.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8421ed88c0d2580419706d622deb85aa
+      internalID: 865201235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_134
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 152.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25fdc450594e0ff4db94fbee4755f059
+      internalID: 283699778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_135
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 152.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4594b0d9ecc6d2146b9f76ccf744c751
+      internalID: 1106278235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_136
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 152.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ff4fbe5dcbd604693fd45f019e255c
+      internalID: 125597189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_137
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 152.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be7cc72c74644474396d2658948e4d0f
+      internalID: -580894442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_138
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 152.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e0d7b419c94e24887287f6ba2c0898
+      internalID: -316452839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_139
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 152.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24cea9322ad6566459db83d0d355a320
+      internalID: 648687380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_140
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 152.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa2f241ad4bdd54faa888ad0abf5af3
+      internalID: 808566483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_141
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 152.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff13665f3d6d4649a279d03b64f242e
+      internalID: -1224686761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_142
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 152.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c38b2a5dc5752245910b559043b347f
+      internalID: -1960119286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_143
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 152.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd6522f65a22a44fae0473ac447ad76
+      internalID: 2032196845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 114.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1645a4fbdb9cf864e95f8f4744642551
+      internalID: 575977458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_145
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 114.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d733fd26fb50a4eb90c2248428f7a3
+      internalID: -966242335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_146
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 114.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57dd139d7db73a241b3fb0c7fcb37c27
+      internalID: -1495925476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_147
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 114.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75852e8e4caa3ec4bbcde0b0aead1ecf
+      internalID: 1292386962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_148
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 114.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb2129cf39712e4e86affbcc00d32d7
+      internalID: 1707497080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_149
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 114.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728b7de0d4ea7ab44b371b704806418b
+      internalID: 276540678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_150
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 114.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba80c177eabba7e46a282ba284e3361b
+      internalID: -35008665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_151
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 114.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a36cbc63e1c6d43ad1631279b53946
+      internalID: -876085615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_152
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 114.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2542928ba7a481b41a168ade3458d583
+      internalID: -1717618882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_153
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 114.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa166b01145fc94aa50f63ffbe6e9be
+      internalID: -868928838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_154
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 114.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27722e122c4ae8e4e9b6f74688bf3e99
+      internalID: -1669649674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_155
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 114.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282764c3e8e6d0a4bbdb282ca88569f7
+      internalID: 1259663801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_156
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 114.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f62b95642914a3459ecf740cc60fab3
+      internalID: -1113391095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_157
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 114.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ea74e0b89a84247a5998d379f18ece
+      internalID: -16031323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_158
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 114.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f86af65f242004abfdd8d459b13fcb
+      internalID: -832921430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_159
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 114.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c370777756c0643800c7560e28898a
+      internalID: -400546592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 76.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c013dfebf73b5c042907976c0063bd54
+      internalID: -518986479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_161
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 76.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d083e4d5cc28124aa4e950344493f1d
+      internalID: -1154260687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_162
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 76.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c0288fb1a6df84ea10170c991473db
+      internalID: 893388414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_163
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 76.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de35c790beb2fd4495ba0f9a89affae
+      internalID: 980037509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_164
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 76.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597539791bab97b439e90e26d5668161
+      internalID: -70631990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_165
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 76.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf52696312045b4f8e58abecd0a932d
+      internalID: 1712996122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_166
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 76.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b14604406d8554382a645c5db3b12e
+      internalID: 770906017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_167
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 76.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04f8bd287205b7499c0de8489e43fb6
+      internalID: -1202654661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_168
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 76.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2f387940c36054e80f756d05b7d94d
+      internalID: -187483424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_169
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 76.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fa914e3666d5a42b87517784bbe0dc
+      internalID: 1071762681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_170
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 76.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7ddab03145c2740b8744262c640160
+      internalID: -102367755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_171
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 76.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288114d991683a24f968233a9bccb3f6
+      internalID: -1867320863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_172
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 76.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19b44478f40543439cdbf22f24ff85e
+      internalID: -1951043106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_173
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 76.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99011df27e37a9d4c8bb232d8b05e671
+      internalID: 1692273798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_174
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 76.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8597d0e09fd2a4b9dd385562493a8c
+      internalID: -847372127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_175
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 76.92308
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca3efbaaeda25c4190f51e6c44c80eb
+      internalID: 1299793967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_176
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 38.923077
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40392ac662eb984ea4e3c94266f9985
+      internalID: 1445240398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_177
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 38.923077
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d6c42c1a8e26548b4c7702df0c9fa5
+      internalID: -1020041906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_178
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 38.923077
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b097d3412a07d441bc5ee0cf6c6bb15
+      internalID: 505592661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_179
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 38.923077
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2aa14599d400c4f87f00c0cdceedec
+      internalID: 2052405291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_180
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 38.923077
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0726f3a647f664399b1b412aedb8b0
+      internalID: -1038089447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_181
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 38.923077
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16c7371e3941244da3406cddbac65d2
+      internalID: -1023034627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_182
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 38.923077
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59428432cc87600449e38ddb6d8f33bb
+      internalID: 1975489567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_183
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 38.923077
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a38373ab2071b45a75d18b2c244e27
+      internalID: 546485541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_184
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 38.923077
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086f2065376711849a40963a00acf73f
+      internalID: 774691686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_185
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 38.923077
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820f17fabd8502d45af7748999f0a494
+      internalID: 543497203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_186
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 38.923077
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495a40732a8a873469d74006d798319f
+      internalID: -1732998555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_187
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 38.923077
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2186be0613a22a4dae37c46f1599a7b
+      internalID: 66043059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_188
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 38.923077
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645650a97319eb14eb2e62791752be4f
+      internalID: 103968878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_189
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 38.923077
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13241ce32a2b48d419a97f1d831f6ac7
+      internalID: -1072598558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_190
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 38.923077
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e51e05130b2cf4cb312b7b80978164
+      internalID: 31079263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_191
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 38.923077
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad254749d4413b46a8f5f120189a43d
+      internalID: -1698675345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_192
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.9230766
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68540e52d9af5f41b18e328c4f8e545
+      internalID: 1781952247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_193
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 0.9230766
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49bcd92f6dcfc24c9a630d227bfe64b
+      internalID: 1573344914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_194
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 0.9230766
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a491f952008902449a78ac1fc6074978
+      internalID: -293508549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_195
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 0.9230766
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc4de72b038beb4eb9ec848c08a5caa
+      internalID: -1502181816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_196
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 0.9230766
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29357fe49e753694794b6e358009eb44
+      internalID: 25203192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_197
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 0.9230766
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68924cc03b2c2d4e82332a76f8a4688
+      internalID: -1941209438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_198
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 0.9230766
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b838eb5a2e8fb654c89dca68dd41a2a8
+      internalID: -1602670436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_199
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 0.9230766
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e509cc4a6045f8a41a06d5703b98601e
+      internalID: 1728545246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_200
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 0.9230766
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5db77bc5a524544b31f53f50a77ac0
+      internalID: 759502236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_201
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 0.9230766
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39b38b083e6b954bba2248aaaa42091
+      internalID: -1820155724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_202
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 0.9230766
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7b6fc2873c5924ca2b0d1633a43a74
+      internalID: 2033841191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_203
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 0.9230766
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77fa921c2645aaa419a58fc66c846bc8
+      internalID: 1059005746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_204
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 0.9230766
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0557dc6c0d5b7df4ea5adbca143951b0
+      internalID: 599281111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_205
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 0.9230766
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff53eb4b98bc1441b730e0bc350f4e8
+      internalID: -1606292171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_206
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 0.9230766
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68bfa4bd62db03845a55bada23f49241
+      internalID: 1315149627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DropStars_31x33_207
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 0.9230766
+        width: 31
+        height: 38.076923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c89459d174d524a869ef7492c549fd
+      internalID: 2147016116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DropStars_31x33_167: -1202654661
+      DropStars_31x33_33: 1203544989
+      DropStars_31x33_47: -1173025990
+      DropStars_31x33_112: 268512752
+      DropStars_31x33_153: -868928838
+      DropStars_31x33_175: 1299793967
+      DropStars_31x33_86: 397158712
+      DropStars_31x33_121: -1547561596
+      DropStars_31x33_79: 437931408
+      DropStars_31x33_149: 276540678
+      DropStars_31x33_7: 769577449
+      DropStars_31x33_185: 543497203
+      DropStars_31x33_123: 1595173208
+      DropStars_31x33_196: 25203192
+      DropStars_31x33_146: -1495925476
+      DropStars_31x33_142: -1960119286
+      DropStars_31x33_16: -38277121
+      DropStars_31x33_181: -1023034627
+      DropStars_31x33_122: 1550262960
+      DropStars_31x33_102: -823603300
+      DropStars_31x33_141: -1224686761
+      DropStars_31x33_178: 505592661
+      DropStars_31x33_135: 1106278235
+      DropStars_31x33_204: 599281111
+      DropStars_31x33_19: 1082653045
+      DropStars_31x33_155: 1259663801
+      DropStars_31x33_8: -878908315
+      DropStars_31x33_195: -1502181816
+      DropStars_31x33_172: -1951043106
+      DropStars_31x33_21: 64790653
+      DropStars_31x33_179: 2052405291
+      DropStars_31x33_77: -976543295
+      DropStars_31x33_42: -833717659
+      DropStars_31x33_108: -600680269
+      DropStars_31x33_200: 759502236
+      DropStars_31x33_49: -1326972154
+      DropStars_31x33_82: -1454303587
+      DropStars_31x33_147: 1292386962
+      DropStars_31x33_63: -423074037
+      DropStars_31x33_156: -1113391095
+      DropStars_31x33_152: -1717618882
+      DropStars_31x33_44: 509788051
+      DropStars_31x33_104: 1968578649
+      DropStars_31x33_203: 1059005746
+      DropStars_31x33_144: 575977458
+      DropStars_31x33_5: 549317401
+      DropStars_31x33_15: -381432660
+      DropStars_31x33_85: -1237724937
+      DropStars_31x33_89: 1077155986
+      DropStars_31x33_101: -1867261300
+      DropStars_31x33_187: 66043059
+      DropStars_31x33_132: 1679832505
+      DropStars_31x33_117: 1633244451
+      DropStars_31x33_88: 1939922879
+      DropStars_31x33_3: -1098251747
+      DropStars_31x33_171: -1867320863
+      DropStars_31x33_35: 92653454
+      DropStars_31x33_40: -244847670
+      DropStars_31x33_58: -1766249337
+      DropStars_31x33_60: 983421465
+      DropStars_31x33_90: 1955222190
+      DropStars_31x33_51: -1300618444
+      DropStars_31x33_159: -400546592
+      DropStars_31x33_151: -876085615
+      DropStars_31x33_32: -497557082
+      DropStars_31x33_81: -1179917023
+      DropStars_31x33_184: 774691686
+      DropStars_31x33_109: -1265810857
+      DropStars_31x33_54: 88199154
+      DropStars_31x33_182: 1975489567
+      DropStars_31x33_197: -1941209438
+      DropStars_31x33_2: -1071994907
+      DropStars_31x33_173: 1692273798
+      DropStars_31x33_114: -554856482
+      DropStars_31x33_154: -1669649674
+      DropStars_31x33_10: -1651370887
+      DropStars_31x33_120: 175835198
+      DropStars_31x33_128: 960361736
+      DropStars_31x33_125: 1018381418
+      DropStars_31x33_193: 1573344914
+      DropStars_31x33_163: 980037509
+      DropStars_31x33_170: -102367755
+      DropStars_31x33_116: -1297405699
+      DropStars_31x33_43: -981386768
+      DropStars_31x33_92: -820408718
+      DropStars_31x33_129: -2025156840
+      DropStars_31x33_69: 674233705
+      DropStars_31x33_37: -1508004493
+      DropStars_31x33_145: -966242335
+      DropStars_31x33_188: 103968878
+      DropStars_31x33_31: -677730387
+      DropStars_31x33_162: 893388414
+      DropStars_31x33_165: 1712996122
+      DropStars_31x33_98: -18119627
+      DropStars_31x33_206: 1315149627
+      DropStars_31x33_59: 1714768163
+      DropStars_31x33_12: 793301470
+      DropStars_31x33_70: -1893712039
+      DropStars_31x33_103: 241486981
+      DropStars_31x33_148: 1707497080
+      DropStars_31x33_9: -2101180225
+      DropStars_31x33_202: 2033841191
+      DropStars_31x33_137: -580894442
+      DropStars_31x33_62: -1755352354
+      DropStars_31x33_161: -1154260687
+      DropStars_31x33_83: -690423568
+      DropStars_31x33_29: 409589596
+      DropStars_31x33_183: 546485541
+      DropStars_31x33_186: -1732998555
+      DropStars_31x33_97: -76573074
+      DropStars_31x33_50: 418655358
+      DropStars_31x33_0: 736539809
+      DropStars_31x33_39: -260545943
+      DropStars_31x33_169: 1071762681
+      DropStars_31x33_143: 2032196845
+      DropStars_31x33_192: 1781952247
+      DropStars_31x33_1: 1428543565
+      DropStars_31x33_52: 1190510407
+      DropStars_31x33_189: -1072598558
+      DropStars_31x33_136: 125597189
+      DropStars_31x33_111: 1153137256
+      DropStars_31x33_84: 932370243
+      DropStars_31x33_95: -409715587
+      DropStars_31x33_55: 1274418425
+      DropStars_31x33_61: -1525232766
+      DropStars_31x33_96: -1004645256
+      DropStars_31x33_36: 1458111496
+      DropStars_31x33_38: -1921508751
+      DropStars_31x33_30: 1851303001
+      DropStars_31x33_11: 1872083857
+      DropStars_31x33_26: 1821764291
+      DropStars_31x33_131: 1586530436
+      DropStars_31x33_107: 337780444
+      DropStars_31x33_4: -309152070
+      DropStars_31x33_76: -535004676
+      DropStars_31x33_115: -1112714783
+      DropStars_31x33_138: -316452839
+      DropStars_31x33_194: -293508549
+      DropStars_31x33_166: 770906017
+      DropStars_31x33_158: -832921430
+      DropStars_31x33_22: -2027775645
+      DropStars_31x33_18: -954018343
+      DropStars_31x33_72: 1790823455
+      DropStars_31x33_94: -569926223
+      DropStars_31x33_100: 2010761861
+      DropStars_31x33_45: 1591290491
+      DropStars_31x33_53: 1886278654
+      DropStars_31x33_13: -2010933617
+      DropStars_31x33_157: -16031323
+      DropStars_31x33_48: -767001345
+      DropStars_31x33_106: -1044720783
+      DropStars_31x33_134: 283699778
+      DropStars_31x33_190: 31079263
+      DropStars_31x33_87: 986261385
+      DropStars_31x33_199: 1728545246
+      DropStars_31x33_168: -187483424
+      DropStars_31x33_78: 153302088
+      DropStars_31x33_133: 865201235
+      DropStars_31x33_113: -1781231268
+      DropStars_31x33_74: -1062736005
+      DropStars_31x33_68: 900538141
+      DropStars_31x33_139: 648687380
+      DropStars_31x33_93: -1592516498
+      DropStars_31x33_180: -1038089447
+      DropStars_31x33_124: -642559273
+      DropStars_31x33_198: -1602670436
+      DropStars_31x33_65: 464419923
+      DropStars_31x33_23: -511904081
+      DropStars_31x33_28: -555612978
+      DropStars_31x33_67: -1556330104
+      DropStars_31x33_118: 2048256229
+      DropStars_31x33_105: 1661939883
+      DropStars_31x33_205: -1606292171
+      DropStars_31x33_41: 698881374
+      DropStars_31x33_17: 654199855
+      DropStars_31x33_201: -1820155724
+      DropStars_31x33_6: 1019437590
+      DropStars_31x33_46: -734781414
+      DropStars_31x33_71: 79683726
+      DropStars_31x33_56: -1918641351
+      DropStars_31x33_176: 1445240398
+      DropStars_31x33_14: -42288067
+      DropStars_31x33_73: -1828400125
+      DropStars_31x33_64: 2102832026
+      DropStars_31x33_99: -1663985799
+      DropStars_31x33_75: 1134345000
+      DropStars_31x33_127: -1012728894
+      DropStars_31x33_174: -847372127
+      DropStars_31x33_80: -1001050273
+      DropStars_31x33_150: -35008665
+      DropStars_31x33_91: -1355237762
+      DropStars_31x33_34: 189547436
+      DropStars_31x33_130: 675308725
+      DropStars_31x33_207: 2147016116
+      DropStars_31x33_177: -1020041906
+      DropStars_31x33_140: 808566483
+      DropStars_31x33_57: -1306535329
+      DropStars_31x33_20: 2063466856
+      DropStars_31x33_25: -2037481780
+      DropStars_31x33_24: -1271924092
+      DropStars_31x33_66: 340591846
+      DropStars_31x33_191: -1698675345
+      DropStars_31x33_160: -518986479
+      DropStars_31x33_110: -91315573
+      DropStars_31x33_27: -543664723
+      DropStars_31x33_164: -70631990
+      DropStars_31x33_119: -954158926
+      DropStars_31x33_126: 1568365003
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

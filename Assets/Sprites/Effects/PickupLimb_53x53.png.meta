@@ -1,0 +1,1433 @@
+fileFormatVersion: 2
+guid: 620d7a147b9726142b52dfc9f0903e74
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PickupLimb_53x53_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 318
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4d62c6e9ffaf04ca374463c0e0233f
+      internalID: 483668790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 318
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2157c509ca5644195e9337dd4d6cee
+      internalID: -589739600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_2
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 318
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4800441d0d34cb04ab492354d4f117e9
+      internalID: -810594149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_3
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 318
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2be184911fd094f969aa62a0f134b2
+      internalID: -924836244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_4
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 318
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9642a336a19b0b4fab33df30189228a
+      internalID: 709032659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_5
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 318
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85dc36373f7688d4ba59106833db33a7
+      internalID: 1839508199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_6
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 318
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1decf17d0bf074f91f693a867457c4
+      internalID: -1205964864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_7
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 318
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9a92da87942974ca02300124b8b554
+      internalID: 1570373510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 265
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c31fa8f0e1b3842bba84134840fa73
+      internalID: -2126555698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_9
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 265
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824431ebe8901b74c8336ee89a6282af
+      internalID: -307914253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_10
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 265
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16247b01a8409344a6178084daaeb6d
+      internalID: -1393264195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_11
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 265
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5127235446aba4f9b1dbfd3b1075b1
+      internalID: 337243249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_12
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 265
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96e80abb2c068d43a8f7cca3fc16864
+      internalID: -498620271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_13
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 265
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e13de9e547f93f49a14606018550cec
+      internalID: -266200411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_14
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 265
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92dba3ac220280458ad2fc6950af68e
+      internalID: 1801339554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_15
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 265
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514e93b86e24e114eb32f6d1bd4a9fb8
+      internalID: -1256437782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_16
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 265
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9d39aaaa3508e428b9778c958b26e7
+      internalID: -268598295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 212
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5920bffc1f65ed740ba5a965997e1898
+      internalID: 336218377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_18
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 212
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1a0af43aa3e2442886220586c78206
+      internalID: -1046560014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_19
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 212
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea5282d766aad84098ddf629cf396de
+      internalID: 1223939358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_20
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 212
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4093f329740c13d45b273b956e726947
+      internalID: -501517668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_21
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 212
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0815c63fa179104c8d41abb08776df8
+      internalID: 913924319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_22
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 212
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358c454f0c272b54bbdfc1f2407543a7
+      internalID: 515359348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_23
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 212
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad45fb693689b94418355e60d7e8055b
+      internalID: 1779855345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_24
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 212
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fddc9ffe13e120e49b95ef264b4b775c
+      internalID: -759803437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_25
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 212
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a180c4f0d2fa4346953195840cb4f5c
+      internalID: -239299394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 159
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7084fc94a6e49f4aa262e083e2b1b35
+      internalID: -1741238247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_27
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 159
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de02a662958feb4191b2d903cfd93c1
+      internalID: 352771047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_28
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 159
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8f467998f0534418ee9e3a9796a05a
+      internalID: 1028996662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_29
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 159
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ef71347636e54499247ae520206c03
+      internalID: -656309668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_30
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 159
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba47104823ad6cf498ae7ab8481cf430
+      internalID: -19863756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_31
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 159
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45264dd0c90a3cd4b9736e7469bd8236
+      internalID: -1013720815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_32
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 159
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e43ef2e453c634591ef0cba9b1a087
+      internalID: 487399196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_33
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 159
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11fba4b1282d9d4c9d7416646599370
+      internalID: -1817823521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_34
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 159
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0c0cad21b75204ebd3b55c5fae9bab
+      internalID: 989412183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 106
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a85007acb921bf4da361f3b7d769f87
+      internalID: 1312874639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_36
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 106
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5d761d90aa47849a5a1f76a7e300ce
+      internalID: 49363502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_37
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 106
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa6171fd15afc742b58fcf7fcd0db5a
+      internalID: -100679005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_38
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 106
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ccfb4f6e0f4314198d59b8e2318274
+      internalID: -1305045195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_39
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 106
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6126be85b3c57514281c3d2d8ffb7bdc
+      internalID: -561444865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_40
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 106
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65728523989ba2e43acc6bd6a970cee0
+      internalID: 1906318258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_41
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 106
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12263d8519594f54fb64ef7357664f6d
+      internalID: 672239202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_42
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 106
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c1d0bf6e250f147a9539b53d9e4eb4
+      internalID: -414506009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_43
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 106
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde0db87aa1386c4e9c6eba48eb213ac
+      internalID: -1472712809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 53
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62650acfb99b354d8990c44e4d0d468
+      internalID: 1202038583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_45
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 53
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841219398d9dc7749acbf4c2935ad0da
+      internalID: -1884703236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_46
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 53
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647285809b1f5f1418c54fe9a94b49da
+      internalID: -1329747752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_47
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 53
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81259d7b9204a94886c2d202c7efed0
+      internalID: -1689113045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_48
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 53
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73710eca9267b6b4c8af88d8c1b3907b
+      internalID: 123724514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_49
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 53
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1b6d21eff6720468c3b51224a5c56f
+      internalID: -1251536484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_50
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 53
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63d1e725dffd814d986e4b9380b3960
+      internalID: 1804881585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_51
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 53
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b4242664f777145a49919335ed5aca
+      internalID: 1770534140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_52
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 53
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f97f62a90f80924fb8ae1efcefc809b
+      internalID: 1832194251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0425d6691be7664b92cd002d6c3aac8
+      internalID: -749158654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_54
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 0
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4925c1e1e588ee14eada7ff494a712de
+      internalID: -1732159035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_55
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 0
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d7186614297f14b9103042374def3f
+      internalID: -1048726841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_56
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c055efd2e5011a94d8d7ca0f1f889054
+      internalID: -26188774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_57
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 0
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2931e8e4fd487429e46c68d4b62996
+      internalID: 45204601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickupLimb_53x53_58
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 0
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8d8d28ed92d95488fc73b341d70837
+      internalID: 128382602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PickupLimb_53x53_53: -749158654
+      PickupLimb_53x53_21: 913924319
+      PickupLimb_53x53_45: -1884703236
+      PickupLimb_53x53_44: 1202038583
+      PickupLimb_53x53_12: -498620271
+      PickupLimb_53x53_16: -268598295
+      PickupLimb_53x53_25: -239299394
+      PickupLimb_53x53_32: 487399196
+      PickupLimb_53x53_42: -414506009
+      PickupLimb_53x53_51: 1770534140
+      PickupLimb_53x53_6: -1205964864
+      PickupLimb_53x53_11: 337243249
+      PickupLimb_53x53_3: -924836244
+      PickupLimb_53x53_1: -589739600
+      PickupLimb_53x53_30: -19863756
+      PickupLimb_53x53_2: -810594149
+      PickupLimb_53x53_52: 1832194251
+      PickupLimb_53x53_22: 515359348
+      PickupLimb_53x53_36: 49363502
+      PickupLimb_53x53_33: -1817823521
+      PickupLimb_53x53_41: 672239202
+      PickupLimb_53x53_15: -1256437782
+      PickupLimb_53x53_9: -307914253
+      PickupLimb_53x53_49: -1251536484
+      PickupLimb_53x53_19: 1223939358
+      PickupLimb_53x53_4: 709032659
+      PickupLimb_53x53_20: -501517668
+      PickupLimb_53x53_7: 1570373510
+      PickupLimb_53x53_34: 989412183
+      PickupLimb_53x53_18: -1046560014
+      PickupLimb_53x53_17: 336218377
+      PickupLimb_53x53_31: -1013720815
+      PickupLimb_53x53_56: -26188774
+      PickupLimb_53x53_23: 1779855345
+      PickupLimb_53x53_55: -1048726841
+      PickupLimb_53x53_43: -1472712809
+      PickupLimb_53x53_5: 1839508199
+      PickupLimb_53x53_0: 483668790
+      PickupLimb_53x53_13: -266200411
+      PickupLimb_53x53_28: 1028996662
+      PickupLimb_53x53_40: 1906318258
+      PickupLimb_53x53_46: -1329747752
+      PickupLimb_53x53_50: 1804881585
+      PickupLimb_53x53_38: -1305045195
+      PickupLimb_53x53_26: -1741238247
+      PickupLimb_53x53_39: -561444865
+      PickupLimb_53x53_58: 128382602
+      PickupLimb_53x53_27: 352771047
+      PickupLimb_53x53_37: -100679005
+      PickupLimb_53x53_14: 1801339554
+      PickupLimb_53x53_24: -759803437
+      PickupLimb_53x53_47: -1689113045
+      PickupLimb_53x53_10: -1393264195
+      PickupLimb_53x53_54: -1732159035
+      PickupLimb_53x53_29: -656309668
+      PickupLimb_53x53_8: -2126555698
+      PickupLimb_53x53_48: 123724514
+      PickupLimb_53x53_57: 45204601
+      PickupLimb_53x53_35: 1312874639
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

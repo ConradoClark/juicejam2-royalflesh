@@ -43,7 +43,7 @@ public class CameraForwardConfiner : BaseGameObject
                 yield return TimeYields.WaitOneFrameX;
             }
 
-            yield return TimeYields.WaitMilliseconds(GameTimer, 500);
+            yield return TimeYields.WaitMilliseconds(GameTimer, 1500);
 
             while (_waveZoneManager.CurrentZoneState == WaveZoneManager.ZoneState.GoMode)
             {

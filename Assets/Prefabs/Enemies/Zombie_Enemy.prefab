@@ -1219,6 +1219,7 @@ GameObject:
   - component: {fileID: 2357262558071878991}
   - component: {fileID: 4683576287495803616}
   - component: {fileID: 1597888954}
+  - component: {fileID: 5269255813988111938}
   m_Layer: 8
   m_Name: Zombie_Enemy
   m_TagString: Untagged
@@ -1325,9 +1326,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ActiveOnInitialization: 0
+  DropRate: {fileID: 5269255813988111938}
   Stats: {fileID: 2357262558071878991}
   Effect: {fileID: 11400000, guid: c17b5fec2074c0a478885298e4dcd068, type: 2}
   SpriteRef: {fileID: 1153630229619542259}
+  LimbDrop: {fileID: 11400000, guid: 80fe0d6b4b8d4a949bc4b8000df2a4e5, type: 2}
+  DropOffset: {x: 0, y: -0.25, z: 0}
 --- !u!114 &1597888954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1342,6 +1346,69 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PhysicsObject: {fileID: 2357262559416291650}
   AnimController: {fileID: 2357262559416291651}
+--- !u!114 &5269255813988111938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2357262559416291648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f869f9523114784087b08a789a3b794, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Droppables:
+  - Type: 7
+    BonusStatsMin:
+      Calcium: 0
+      Attack: 0
+      Dexterity: 0
+      Footwork: 0
+    BonusStatsMax:
+      Calcium: 1
+      Attack: 1
+      Dexterity: 0
+      Footwork: 0
+    MaxRarity: 1
+    Name: Zombie's Right Arm
+    NamePrefixes:
+    - Dirty
+    - Bad
+    - Nauseating
+    - Ignorant
+    - Low
+    NameSuffixes:
+    - of Disease
+    - of Crap
+    - of Decay
+    Chance: 20
+    Value: 5
+  - Type: 0
+    BonusStatsMin:
+      Calcium: 0
+      Attack: 0
+      Dexterity: 0
+      Footwork: 0
+    BonusStatsMax:
+      Calcium: 1
+      Attack: 1
+      Dexterity: 0
+      Footwork: 0
+    MaxRarity: 1
+    Name: Zombie's Right Arm
+    NamePrefixes:
+    - Dirty
+    - Bad
+    - Nauseating
+    - Ignorant
+    - Low
+    NameSuffixes:
+    - of Disease
+    - of Crap
+    - of Decay
+    Chance: 80
+    Value: 5
 --- !u!1 &2357262559521038024
 GameObject:
   m_ObjectHideFlags: 0
