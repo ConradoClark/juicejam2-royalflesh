@@ -4,6 +4,7 @@ using System.Linq;
 using Cinemachine;
 using Licht.Impl.Orchestration;
 using Licht.Unity.Objects;
+using UnityEngine;
 
 public class WaveZoneManager : SceneObject<WaveZoneManager>
 {

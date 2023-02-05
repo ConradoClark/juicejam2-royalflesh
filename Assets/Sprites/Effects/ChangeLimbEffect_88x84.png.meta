@@ -1,0 +1,4073 @@
+fileFormatVersion: 2
+guid: 68dad431a0f813943b0b383474594497
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1008
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3d5bcaac512264ca570b9c81272b50
+      internalID: -1440702053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_1
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1008
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb3682a9758d5f409dce3ff9b0433cf
+      internalID: -1521792162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_2
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1008
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ceff61e4e47aab4783b044d3b57a8d2
+      internalID: -233749101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_3
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1008
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b5fb578aeb3e14dbd75d8a96b6c983
+      internalID: -1878728756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_4
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1008
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c605529978bf343a492d18ae658da4
+      internalID: -1466598340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_5
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1008
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e202b0392620106409c230b262331ff3
+      internalID: -447300990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_6
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1008
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34834061d0296c4b99f426c080310e0
+      internalID: -1866406342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_7
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1008
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186ef69feab4cf345b77d5c7c0077202
+      internalID: -1732093242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_8
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1008
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9368e0adcf73604bb6f99c555a69dc4
+      internalID: 861704332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_9
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1008
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe3a343780d44543accf0d333deafe3
+      internalID: 1973792069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_10
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 1008
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e1905bfd21a4d4cad8a3143e2ddb63
+      internalID: 863702433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_11
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1008
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5091e805fdae61b4390b6078daef0bdd
+      internalID: -1241963972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_12
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 1008
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a095620c02ba244bd7dcdc94e34b7a
+      internalID: -1296096968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 924
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbabd7acbc93b5e4a93f84df5ec68051
+      internalID: 991316991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_14
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 924
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b7990f1cf270948aedbce9855a3a06
+      internalID: -70953702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_15
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 924
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b6e8be064e7964a87a86094cd3a235
+      internalID: 346512355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_16
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 924
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c7a32f9a6d8154381389c441f7c813
+      internalID: 142126184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_17
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 924
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4f44db03c9fd74b9c95ffcdecabc00
+      internalID: 1335008251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_18
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 924
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4ee182fd1acda41a053669e5f795a3
+      internalID: 84637363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_19
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 924
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745451fb746c2e4489a8a6cb6328e236
+      internalID: -238852206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_20
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 924
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60d41107704c854bb4d885e47978a34
+      internalID: -2080790442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_21
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 924
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e7d121f0e0ab24498220ca71d8963e
+      internalID: 669996886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_22
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 924
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd6bca774cea294b8359c1dcdcee87c
+      internalID: 610425500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_23
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 924
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebc523f735d81b44941e97834edffae
+      internalID: 522814914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_24
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 924
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286b1fc80d822d6489ca04b7574a0eff
+      internalID: -1628367641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_25
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 924
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd280765166b9d241a5e8dc42fb2627b
+      internalID: 376620279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_26
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 924
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1360e9cc206c984408c73f28980b608e
+      internalID: 14615134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264ec2e36023a684f85c1b7ed5ae4ee8
+      internalID: -1013876806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_28
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 840
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f773146b7d2a764ba5cb1f4e877f36c
+      internalID: 1567783559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_29
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 840
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506fc4dcc6c7a294fb90e6d6515b24a1
+      internalID: 1648287851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_30
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 840
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a5157ca3f37864ab9024ab7c1eee3b
+      internalID: -535455628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_31
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 840
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b7b436597bfdb48aacad1524153a13
+      internalID: -326449663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_32
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 840
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b54aed37ae37e94cbd9e0080568b443
+      internalID: 1005493502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_33
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 840
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b7a7ea4bfcaed488e8bca91002c7a8
+      internalID: 2033358853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_34
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 840
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d9eac0e3adfe6459aa0587152aa4ed
+      internalID: -431605680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_35
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 840
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f282d2a1b76ff774cbd8304e06ea5035
+      internalID: -653761452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_36
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 840
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbbedd0feb3b7046b2935a227020015
+      internalID: -1409906836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_37
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 840
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a36c6dddee375469ca43af14a86878
+      internalID: 243876022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_38
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 840
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad72473b7f147084086149ce6dbec6e5
+      internalID: 455288187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_39
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 840
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c8f04aaeb4e1f41ba7c4a921e5abc4
+      internalID: -1363334417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_40
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 840
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ccc01a2023904428eb10057534d2aa
+      internalID: 141121282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 756
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964677e316374dd42bc2ece0ee8b278a
+      internalID: -1185893264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_42
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 756
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93caee986bd06ef4fbf7029a66d4d11e
+      internalID: 279405710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_43
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 756
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a194d55ed2f7c4eb82a3b9953ca964
+      internalID: -390159279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_44
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 756
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8271acb0945eb3d44b1650a9073d8758
+      internalID: -121898027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_45
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 756
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be43fee5d8c195348a0b0a07fb535176
+      internalID: -159239659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_46
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 756
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3584b2df485a30940b91d48cc1d6745e
+      internalID: 640385767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_47
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 756
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df63ee607ba554498b97f5b6ec2e7f7
+      internalID: 1962411955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_48
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 756
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9475be9921b084b4588976fbca3176b2
+      internalID: -1970491574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_49
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 756
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f708613597b904aaea60d9610cad86
+      internalID: -1419670106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_50
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 756
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f570b11234dd44eaac524693305b5f
+      internalID: -1831350636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_51
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 756
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4935290484c1754fa48d0df36b27d4b
+      internalID: -724915571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_52
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 756
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7975d95884aa8f4d9785b2735b0e471
+      internalID: 1833036422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_53
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 756
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac966a451a010946a28600b4cc314ef
+      internalID: -619090006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_54
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 756
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e598c0940c2ccff45ae8db462bedda91
+      internalID: 1593384413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab0fcc752caac641871d40f276633ab
+      internalID: 988499755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_56
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 672
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaad2845f00596642978fbc9be9791ae
+      internalID: -1453320076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_57
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 672
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef57034f0368e0b4bb7168d4df875486
+      internalID: 1712284764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_58
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 672
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f7f98171fb1454fba3ff8effba09af
+      internalID: -1580477469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_59
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 672
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4314e17deeceed468a8693e9136f6c1
+      internalID: -1604734280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_60
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 672
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d357ab6058fa3a4b921ff1a5c338898
+      internalID: 1247464332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_61
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 672
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e49bc843de80d4b8d4063a9e2a89f8
+      internalID: -138826060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_62
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 672
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c1ce6c498750e4483789e96f1ec890
+      internalID: -1299296063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_63
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 672
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cbe84dac8a2d8b46961d0fa55bc6293
+      internalID: -1207373443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_64
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 672
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0253d50da0d30b4d8f12400b621abd1
+      internalID: 7878619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_65
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 672
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5403625bb4b312b43b6773af53039115
+      internalID: -122473720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_66
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 672
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b326ca3202076f4a94f70ad99098dba
+      internalID: 1519640442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_67
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 672
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c01bcd051dfac4dbb36a191fc63532
+      internalID: -625911687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_68
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 672
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ca6f301419277439bdc693242fc6fc
+      internalID: 689694987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 588
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a138aad03df5f44cbdcc8155e5ac208
+      internalID: 1141771223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_70
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 588
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41271ed336be3234f8b4de667bfb95f8
+      internalID: 1756505363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_71
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 588
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2184a13f13097dd44a3237a50739334b
+      internalID: -247110897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_72
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 588
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a225be809c7e54abcb8f05c170f9e2
+      internalID: 1260833875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_73
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 588
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3d61f941306114fb26c06f30441fce
+      internalID: 1259318183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_74
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 588
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1001191406bd1e0439a3de6b624fc1a0
+      internalID: 54723444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_75
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 588
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acdaf51332a471b48b443fbf5ebc777f
+      internalID: 1215903668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_76
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 588
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9664f6d3e0e4a04fb5b26f0aedcb186
+      internalID: 298193635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_77
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 588
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6705a23a38e8e42af5509680b62719
+      internalID: 755477204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_78
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 588
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdd48cb3434f954d98715a0efe7cc98
+      internalID: -1927624038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_79
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 588
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d806b65fc18fb9349a7878fdf781899b
+      internalID: -2125656505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_80
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 588
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a23b1957fc66843854518bcbe3e691
+      internalID: 2145759361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_81
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 588
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1346dbef382384b4cacc6e9e40ca7555
+      internalID: 1823446342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_82
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 588
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16736336a4d43cb4c8e9e79f9b25cadd
+      internalID: 429916082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_83
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 504
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f64f86c692cd224cb0fbc60126249db
+      internalID: 2128950870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_84
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 504
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49052527bc5f50040af5aa039758dd42
+      internalID: -761327042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_85
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 504
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f6b60022ac6ec40823a76a0f3a40b4
+      internalID: 1625786284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_86
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 504
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69f2de59d47c1447a94df016ed4fea3
+      internalID: -964498894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_87
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 504
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e8a938716bf084f859db0a2eff8c66
+      internalID: 1469466435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_88
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 504
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9a1b28391899d4bbc76cad07393233
+      internalID: -1442637009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_89
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 504
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946e6f02b3e38804eb7a2405c7deedaa
+      internalID: 144556052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_90
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 504
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7c8048c4b3ca0449d42b9352bc79bb
+      internalID: -1209798129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_91
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 504
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d201e525bf2fe5f4592aa7a6aacb937b
+      internalID: -1643123015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_92
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 504
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e3f3aa14f59ce4fa792fdac1f6e53c
+      internalID: -1893267545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_93
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 504
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd33debd8fff9eb44bf7e2cca5eb859e
+      internalID: -54139515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_94
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 504
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5b30fb3b011e74dba1ad0cdb283be8
+      internalID: 776325273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_95
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 504
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef64ae1d1f3a8f749bde15d517697f61
+      internalID: 126495643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_96
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 504
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d5e9f3d1814ad499f30ba9171b04b9
+      internalID: -1299813610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_97
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244dcfccfe5bfab409d1cf7f9180506c
+      internalID: -114394828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_98
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 420
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a32e86c59519cd4da14cd5f4d48b7b7
+      internalID: 1962634936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_99
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 420
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc1621d890232a4e86fe4c2f2681f15
+      internalID: 238909163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_100
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 420
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a5bce0ca203054b87f8b247bc92968
+      internalID: 1582160292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_101
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 420
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16b07f2a42af344ca8b372d77656fb4
+      internalID: -1246848414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_102
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 420
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec8dd1b0f79a884ea690e3d225f73ac
+      internalID: 224619460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_103
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 420
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94119945416306b4dbed0a70e3457c4e
+      internalID: -1428216722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_104
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 420
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1b82638df7982408829ec583e56f4b
+      internalID: -1515197025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_105
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 420
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590ffc4d5096fda46873207875c2d273
+      internalID: -1416757299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_106
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 420
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920cff9740a29e34584712110c3d9d37
+      internalID: -1556260168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_107
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 420
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be024fe4d0dce24f9fe15b13c9e0b29
+      internalID: -1784069984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_108
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 420
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492c4846e0cc50547b38f9d5c819716c
+      internalID: 2031189821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_109
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 420
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8b0448eb220e046bd4360cf5293a9a
+      internalID: 1018129375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_110
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 420
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61606dd5e3643754db015961d9fe8d7c
+      internalID: -63082396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_111
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52f273d4162d8b448b9c6d2bad6e51b
+      internalID: -618504057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_112
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 336
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543e91c57095583478ad0f7d33427b1f
+      internalID: -1229711994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_113
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 336
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560aeb4b3767a5c4cbc0ee7ab10f6d16
+      internalID: 943800581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_114
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 336
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48dc66598f61724e918ac5d9aa84cd2
+      internalID: -660968406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_115
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 336
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc4381a93a1e664ab15f180b822ca05
+      internalID: -1746301984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_116
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 336
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4ec103b252a0f4ea70195e998212a7
+      internalID: 1672703817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_117
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 336
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5f17fb159cd6243b5529720718aada
+      internalID: 141055854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_118
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 336
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db522eb6ef72514086101f54daa6338
+      internalID: 38674726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_119
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 336
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfbbcaf7b1921a46923a2a3dd174535
+      internalID: -998028980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_120
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 336
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457976425ca3850499d938ff15dea1e9
+      internalID: 1248958165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_121
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 336
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11b6200b1908e440a70d3be07136904
+      internalID: 837895157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_122
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 336
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941c2536cab1975489f2b5c53eed66dc
+      internalID: -981492390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_123
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 336
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522624c89c047dc49aa5c3d191635bd3
+      internalID: -1162021324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_124
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 336
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39db69ea15b726499ffd3a728042a18
+      internalID: -709862439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_125
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cbb77574b4e610469157459bbc61279
+      internalID: 2112725179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_126
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 252
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1161a95ded7cc4199b489dfc9ffe1b
+      internalID: 2033176391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_127
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 252
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d93a544ad56244c97f8e29cd63ecf7
+      internalID: -1019849414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_128
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 252
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45935c9dd78919b4984213634ca0c3f7
+      internalID: 2103810616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_129
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 252
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f7bfa4659cbae49b26336ccd77f528
+      internalID: 1163263113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_130
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 252
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62dafa8b5ecf5cd419f748afcf3940fd
+      internalID: -2000541702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_131
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 252
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254d58ce2edb2ff4484f3cef7ef77dde
+      internalID: -1633702565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_132
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 252
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a509767bf8a454b8cc2ba2fed40506
+      internalID: 1049234493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_133
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 252
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f2cbe3457f49547b920448b7d5d267
+      internalID: -54078324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_134
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 252
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52cbe2af901c9de478e10f0df499bd01
+      internalID: -1178498740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_135
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 252
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe83a8c115cd7f429a1c28b6b8d219f
+      internalID: 1836659460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_136
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 252
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21185e6cb25cfb946a728acbf9214f12
+      internalID: 954692080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_137
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 252
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c45643e87e3e6438eef772698d5a5b
+      internalID: -758472097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_138
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 252
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5035163a8cf3baf4cb2386661e1b0ab5
+      internalID: 113559764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_139
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10514322ce2e19c4f8f9dc2b8ba56891
+      internalID: 752728514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_140
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 168
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7100493c705e55146848a364527a6f81
+      internalID: -1239948585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_141
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 168
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b88c1c15ba6c244ba5ea3ee5a16605
+      internalID: 1459668978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_142
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 168
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d7e2386c953744e85ad4f9b5499fea
+      internalID: 622470293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_143
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 168
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892eb035206c5cd458ec687744424789
+      internalID: 613888079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_144
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 168
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85e2ced4a384b44b961d69859a088d6
+      internalID: -1419356060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_145
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 168
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05500a19d68b1504e95ae25163ed6377
+      internalID: -207374547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_146
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 168
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f843d936a63c33143bd1a662343a9b51
+      internalID: -171345619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_147
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 168
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ded73192bfb43949b0848d77f2aebcb
+      internalID: 718363643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_148
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 168
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd544bf71e00c9b4facdf02c06f395de
+      internalID: 964553173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_149
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 168
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc9fab58d0d0224f99830d4ae3009d7
+      internalID: -776958234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_150
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 168
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99721c96d48fb247931e74a154ac672
+      internalID: -1808200310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_151
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 168
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc43b5e5fa67d94eb18e52a11ad8979
+      internalID: 1792212470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_152
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 168
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eed5e81dc96287438c7662a9087a03f
+      internalID: 1452104272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_153
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff729fe2e736c44cae846a004d27513
+      internalID: 773989245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_154
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 84
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470520eca3ce023438438550ba092ce0
+      internalID: 963306538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_155
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 84
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86dfcbcb3f4557f459c5c48a1ad9260f
+      internalID: 1463176899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_156
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 84
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd2c4a6bf02b5d41ac7a923076e439a
+      internalID: 1923775070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_157
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 84
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8106de78b3b7f294bb92f0517fac3b0d
+      internalID: -925312869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_158
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 84
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5714cbd2c560449ae3fe486345e4a8
+      internalID: 781496343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_159
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 84
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c99faccea78ac42a5332a61d713a15
+      internalID: 660342031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_160
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 84
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6a2d220aa138247afffaa0b069ce8b
+      internalID: -1921129809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_161
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 84
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6934f83947e858b4697d37756a5eb41e
+      internalID: -2087389630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_162
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 84
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e646a813e40203948a92c2b9c00a2517
+      internalID: -479464164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_163
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 84
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dcf460778b9ca4469626547bdecade6
+      internalID: -625095032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_164
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 84
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f7619ffb6aa02429b470d5861e4089
+      internalID: 459589010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_165
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 84
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c002d93435a03c445b389b3982d29cf2
+      internalID: 1260536086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_166
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 84
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d21cc0b310978499686ff6ccccfb46
+      internalID: 439437611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_167
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f35dd63bf46a440b6461f5f2848942
+      internalID: 502254327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_168
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 0
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c09fad561d8a9b40b10a24332bd24b3
+      internalID: -580499482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_169
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2210de831797142b2ab1d12b2e3047
+      internalID: 208884313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_170
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ae2be91427ded4fb91b9472adf4512
+      internalID: -178546435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_171
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b83d7e7b756c1489ab1b827d3f6243
+      internalID: 228575652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_172
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 0
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451d8fae3ef10874785cdf75117130da
+      internalID: 765971549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_173
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79993f137ede8948b34a9ba0b89ac6e
+      internalID: 844652735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_174
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 0
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077d4abe0fe82324cbca2f765ae40bcf
+      internalID: 107774313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_175
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d074f64426f6f4646a1b60fee5fc1a28
+      internalID: 1724769547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_176
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 0
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd83cec8bd0d4074c80f504e14e1f569
+      internalID: -276371751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_177
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 0
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b8b7c05b7e83e4fa7e6188b3dd3c5a
+      internalID: 101099551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeLimbEffect_88x84_178
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 0
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a2ec0636803e042abb8e838ae3a6b3
+      internalID: -1066387953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ChangeLimbEffect_88x84_161: -2087389630
+      ChangeLimbEffect_88x84_50: -1831350636
+      ChangeLimbEffect_88x84_0: -1440702053
+      ChangeLimbEffect_88x84_99: 238909163
+      ChangeLimbEffect_88x84_154: 963306538
+      ChangeLimbEffect_88x84_55: 988499755
+      ChangeLimbEffect_88x84_44: -121898027
+      ChangeLimbEffect_88x84_139: 752728514
+      ChangeLimbEffect_88x84_147: 718363643
+      ChangeLimbEffect_88x84_85: 1625786284
+      ChangeLimbEffect_88x84_160: -1921129809
+      ChangeLimbEffect_88x84_61: -138826060
+      ChangeLimbEffect_88x84_174: 107774313
+      ChangeLimbEffect_88x84_33: 2033358853
+      ChangeLimbEffect_88x84_13: 991316991
+      ChangeLimbEffect_88x84_90: -1209798129
+      ChangeLimbEffect_88x84_151: 1792212470
+      ChangeLimbEffect_88x84_86: -964498894
+      ChangeLimbEffect_88x84_175: 1724769547
+      ChangeLimbEffect_88x84_74: 54723444
+      ChangeLimbEffect_88x84_176: -276371751
+      ChangeLimbEffect_88x84_47: 1962411955
+      ChangeLimbEffect_88x84_124: -709862439
+      ChangeLimbEffect_88x84_130: -2000541702
+      ChangeLimbEffect_88x84_9: 1973792069
+      ChangeLimbEffect_88x84_88: -1442637009
+      ChangeLimbEffect_88x84_60: 1247464332
+      ChangeLimbEffect_88x84_10: 863702433
+      ChangeLimbEffect_88x84_149: -776958234
+      ChangeLimbEffect_88x84_153: 773989245
+      ChangeLimbEffect_88x84_97: -114394828
+      ChangeLimbEffect_88x84_71: -247110897
+      ChangeLimbEffect_88x84_72: 1260833875
+      ChangeLimbEffect_88x84_69: 1141771223
+      ChangeLimbEffect_88x84_68: 689694987
+      ChangeLimbEffect_88x84_53: -619090006
+      ChangeLimbEffect_88x84_140: -1239948585
+      ChangeLimbEffect_88x84_20: -2080790442
+      ChangeLimbEffect_88x84_6: -1866406342
+      ChangeLimbEffect_88x84_81: 1823446342
+      ChangeLimbEffect_88x84_135: 1836659460
+      ChangeLimbEffect_88x84_133: -54078324
+      ChangeLimbEffect_88x84_177: 101099551
+      ChangeLimbEffect_88x84_172: 765971549
+      ChangeLimbEffect_88x84_93: -54139515
+      ChangeLimbEffect_88x84_1: -1521792162
+      ChangeLimbEffect_88x84_110: -63082396
+      ChangeLimbEffect_88x84_164: 459589010
+      ChangeLimbEffect_88x84_35: -653761452
+      ChangeLimbEffect_88x84_167: 502254327
+      ChangeLimbEffect_88x84_52: 1833036422
+      ChangeLimbEffect_88x84_128: 2103810616
+      ChangeLimbEffect_88x84_49: -1419670106
+      ChangeLimbEffect_88x84_4: -1466598340
+      ChangeLimbEffect_88x84_105: -1416757299
+      ChangeLimbEffect_88x84_34: -431605680
+      ChangeLimbEffect_88x84_143: 613888079
+      ChangeLimbEffect_88x84_102: 224619460
+      ChangeLimbEffect_88x84_168: -580499482
+      ChangeLimbEffect_88x84_116: 1672703817
+      ChangeLimbEffect_88x84_8: 861704332
+      ChangeLimbEffect_88x84_121: 837895157
+      ChangeLimbEffect_88x84_57: 1712284764
+      ChangeLimbEffect_88x84_145: -207374547
+      ChangeLimbEffect_88x84_38: 455288187
+      ChangeLimbEffect_88x84_24: -1628367641
+      ChangeLimbEffect_88x84_165: 1260536086
+      ChangeLimbEffect_88x84_17: 1335008251
+      ChangeLimbEffect_88x84_5: -447300990
+      ChangeLimbEffect_88x84_56: -1453320076
+      ChangeLimbEffect_88x84_91: -1643123015
+      ChangeLimbEffect_88x84_178: -1066387953
+      ChangeLimbEffect_88x84_26: 14615134
+      ChangeLimbEffect_88x84_37: 243876022
+      ChangeLimbEffect_88x84_109: 1018129375
+      ChangeLimbEffect_88x84_141: 1459668978
+      ChangeLimbEffect_88x84_40: 141121282
+      ChangeLimbEffect_88x84_82: 429916082
+      ChangeLimbEffect_88x84_156: 1923775070
+      ChangeLimbEffect_88x84_41: -1185893264
+      ChangeLimbEffect_88x84_100: 1582160292
+      ChangeLimbEffect_88x84_31: -326449663
+      ChangeLimbEffect_88x84_96: -1299813610
+      ChangeLimbEffect_88x84_3: -1878728756
+      ChangeLimbEffect_88x84_171: 228575652
+      ChangeLimbEffect_88x84_106: -1556260168
+      ChangeLimbEffect_88x84_173: 844652735
+      ChangeLimbEffect_88x84_48: -1970491574
+      ChangeLimbEffect_88x84_95: 126495643
+      ChangeLimbEffect_88x84_94: 776325273
+      ChangeLimbEffect_88x84_46: 640385767
+      ChangeLimbEffect_88x84_42: 279405710
+      ChangeLimbEffect_88x84_148: 964553173
+      ChangeLimbEffect_88x84_132: 1049234493
+      ChangeLimbEffect_88x84_112: -1229711994
+      ChangeLimbEffect_88x84_15: 346512355
+      ChangeLimbEffect_88x84_159: 660342031
+      ChangeLimbEffect_88x84_92: -1893267545
+      ChangeLimbEffect_88x84_54: 1593384413
+      ChangeLimbEffect_88x84_126: 2033176391
+      ChangeLimbEffect_88x84_150: -1808200310
+      ChangeLimbEffect_88x84_30: -535455628
+      ChangeLimbEffect_88x84_7: -1732093242
+      ChangeLimbEffect_88x84_79: -2125656505
+      ChangeLimbEffect_88x84_70: 1756505363
+      ChangeLimbEffect_88x84_66: 1519640442
+      ChangeLimbEffect_88x84_142: 622470293
+      ChangeLimbEffect_88x84_163: -625095032
+      ChangeLimbEffect_88x84_27: -1013876806
+      ChangeLimbEffect_88x84_75: 1215903668
+      ChangeLimbEffect_88x84_111: -618504057
+      ChangeLimbEffect_88x84_43: -390159279
+      ChangeLimbEffect_88x84_77: 755477204
+      ChangeLimbEffect_88x84_157: -925312869
+      ChangeLimbEffect_88x84_80: 2145759361
+      ChangeLimbEffect_88x84_59: -1604734280
+      ChangeLimbEffect_88x84_63: -1207373443
+      ChangeLimbEffect_88x84_25: 376620279
+      ChangeLimbEffect_88x84_137: -758472097
+      ChangeLimbEffect_88x84_16: 142126184
+      ChangeLimbEffect_88x84_162: -479464164
+      ChangeLimbEffect_88x84_152: 1452104272
+      ChangeLimbEffect_88x84_120: 1248958165
+      ChangeLimbEffect_88x84_170: -178546435
+      ChangeLimbEffect_88x84_129: 1163263113
+      ChangeLimbEffect_88x84_36: -1409906836
+      ChangeLimbEffect_88x84_12: -1296096968
+      ChangeLimbEffect_88x84_19: -238852206
+      ChangeLimbEffect_88x84_18: 84637363
+      ChangeLimbEffect_88x84_83: 2128950870
+      ChangeLimbEffect_88x84_118: 38674726
+      ChangeLimbEffect_88x84_119: -998028980
+      ChangeLimbEffect_88x84_166: 439437611
+      ChangeLimbEffect_88x84_108: 2031189821
+      ChangeLimbEffect_88x84_29: 1648287851
+      ChangeLimbEffect_88x84_67: -625911687
+      ChangeLimbEffect_88x84_127: -1019849414
+      ChangeLimbEffect_88x84_138: 113559764
+      ChangeLimbEffect_88x84_64: 7878619
+      ChangeLimbEffect_88x84_107: -1784069984
+      ChangeLimbEffect_88x84_22: 610425500
+      ChangeLimbEffect_88x84_146: -171345619
+      ChangeLimbEffect_88x84_2: -233749101
+      ChangeLimbEffect_88x84_51: -724915571
+      ChangeLimbEffect_88x84_101: -1246848414
+      ChangeLimbEffect_88x84_155: 1463176899
+      ChangeLimbEffect_88x84_89: 144556052
+      ChangeLimbEffect_88x84_134: -1178498740
+      ChangeLimbEffect_88x84_122: -981492390
+      ChangeLimbEffect_88x84_62: -1299296063
+      ChangeLimbEffect_88x84_114: -660968406
+      ChangeLimbEffect_88x84_103: -1428216722
+      ChangeLimbEffect_88x84_76: 298193635
+      ChangeLimbEffect_88x84_14: -70953702
+      ChangeLimbEffect_88x84_78: -1927624038
+      ChangeLimbEffect_88x84_104: -1515197025
+      ChangeLimbEffect_88x84_169: 208884313
+      ChangeLimbEffect_88x84_21: 669996886
+      ChangeLimbEffect_88x84_117: 141055854
+      ChangeLimbEffect_88x84_45: -159239659
+      ChangeLimbEffect_88x84_98: 1962634936
+      ChangeLimbEffect_88x84_131: -1633702565
+      ChangeLimbEffect_88x84_158: 781496343
+      ChangeLimbEffect_88x84_11: -1241963972
+      ChangeLimbEffect_88x84_32: 1005493502
+      ChangeLimbEffect_88x84_23: 522814914
+      ChangeLimbEffect_88x84_113: 943800581
+      ChangeLimbEffect_88x84_84: -761327042
+      ChangeLimbEffect_88x84_58: -1580477469
+      ChangeLimbEffect_88x84_136: 954692080
+      ChangeLimbEffect_88x84_73: 1259318183
+      ChangeLimbEffect_88x84_28: 1567783559
+      ChangeLimbEffect_88x84_39: -1363334417
+      ChangeLimbEffect_88x84_87: 1469466435
+      ChangeLimbEffect_88x84_144: -1419356060
+      ChangeLimbEffect_88x84_65: -122473720
+      ChangeLimbEffect_88x84_125: 2112725179
+      ChangeLimbEffect_88x84_123: -1162021324
+      ChangeLimbEffect_88x84_115: -1746301984
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

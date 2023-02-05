@@ -28,13 +28,16 @@ public class LimbInventory : SceneObject<LimbInventory>
     }
 
     [Serializable]
-    public struct LimbItem
+    public class LimbItem
     {
         public string Name;
         public LimbType Limb;
+        public CustomAnimationEventListener.AnimatingLimb LimbType;
         public BonusStats Stats;
         public LimbRarity Rarity;
         public int Value;
+        public bool New;
+        public bool Equipped;
     }
 
     public List<LimbItem> Inventory;

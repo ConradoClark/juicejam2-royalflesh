@@ -67,6 +67,7 @@ public class EnableHitBoxOnAnimEvent : BaseGameObject
     {
         while (Collider.enabled)
         {
+            _results = new Collider2D[10];
             var collision = Collider.OverlapCollider(new ContactFilter2D
             {
                 layerMask = LayerToCheck,

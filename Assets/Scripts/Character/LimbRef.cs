@@ -7,4 +7,5 @@ using UnityEngine;
 
 public class LimbRef : MonoBehaviour
 {
+    public string Name;
 }

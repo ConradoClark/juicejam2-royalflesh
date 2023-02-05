@@ -1360,6 +1360,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Droppables:
   - Type: 7
+    LimbType: 3
     BonusStatsMin:
       Calcium: 0
       Attack: 0
@@ -1382,9 +1383,11 @@ MonoBehaviour:
     - of Disease
     - of Crap
     - of Decay
-    Chance: 20
+    Chance: 30
+    CurrentCombo: 0
     Value: 5
   - Type: 0
+    LimbType: 0
     BonusStatsMin:
       Calcium: 0
       Attack: 0
@@ -1407,7 +1410,8 @@ MonoBehaviour:
     - of Disease
     - of Crap
     - of Decay
-    Chance: 80
+    Chance: 70
+    CurrentCombo: 0
     Value: 5
 --- !u!1 &2357262559521038024
 GameObject:

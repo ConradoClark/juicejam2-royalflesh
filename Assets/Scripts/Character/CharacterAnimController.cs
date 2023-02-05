@@ -65,6 +65,8 @@ public class CharacterAnimController : BaseGameObject
         {
             sprite.flipX = Flip;
         }
+
+        Animator.speed = (float) GameTimer.Multiplier;
     }
 
     public void TriggerRightAttack()

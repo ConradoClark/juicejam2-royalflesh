@@ -5,12 +5,13 @@ using Licht.Interfaces.Generation;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class LimbDropGenerator : MonoBehaviour, IGenerator<int,float>
+public class LimbDropGenerator : MonoBehaviour, IGenerator<int, float>
 {
     [Serializable]
     public struct DroppableLimb : IWeighted<float>
     {
         public LimbInventory.LimbType Type;
+        public CustomAnimationEventListener.AnimatingLimb LimbType;
         public BonusStats BonusStatsMin;
         public BonusStats BonusStatsMax;
         public LimbInventory.LimbRarity MaxRarity;
@@ -18,11 +19,15 @@ public class LimbDropGenerator : MonoBehaviour, IGenerator<int,float>
         public string[] NamePrefixes;
         public string[] NameSuffixes;
         public float Chance;
-        public float Weight => Chance;
+        public float CurrentCombo;
+
+        public float Weight => Chance *
+                               (Type == LimbInventory.LimbType.Nothing ? 1 : 1 + Math.Max(0, CurrentCombo - 1) * 0.15f);
         public int Value;
     }
 
     public DroppableLimb[] Droppables;
+    private CharacterCombo _comboTracker;
 
     private static LimbInventory.LimbRarity[] _rarityOrder = new[]
     {
@@ -32,10 +37,32 @@ public class LimbDropGenerator : MonoBehaviour, IGenerator<int,float>
         LimbInventory.LimbRarity.Special
     };
 
-    public LimbInventory.LimbItem? GenerateLimb()
+    private void Awake()
+    {
+        _comboTracker = CharacterComboRef.Instance(true).ComboTracker;
+    }
+
+    public LimbInventory.LimbItem GenerateLimb()
     {
         if (Droppables.Length == 0) return null;
-        var generator = new WeightedDice<DroppableLimb>(Droppables, this);
+
+        var limbsWithWeight = Droppables.Select(drop =>
+            new DroppableLimb
+            {
+                Type = drop.Type,
+                LimbType = drop.LimbType,
+                BonusStatsMin = drop.BonusStatsMin,
+                BonusStatsMax = drop.BonusStatsMax,
+                MaxRarity = drop.MaxRarity,
+                Name = drop.Name,
+                NamePrefixes = drop.NamePrefixes,
+                NameSuffixes = drop.NameSuffixes,
+                Chance = drop.Chance,
+                CurrentCombo = _comboTracker.CurrentCombo,
+            }
+        ).ToArray();
+
+        var generator = new WeightedDice<DroppableLimb>(limbsWithWeight, this);
 
         var limb = generator.Generate();
 
@@ -43,11 +70,12 @@ public class LimbDropGenerator : MonoBehaviour, IGenerator<int,float>
 
         var maxRarity = limb.MaxRarity;
         var rarity = _rarityOrder[Random.Range(0, _rarityOrder
-            .TakeWhile(r => r != maxRarity).Take(1).ToArray().Length+1)];
+            .TakeWhile(r => r != maxRarity).Take(1).ToArray().Length + 1)];
 
         var item = new LimbInventory.LimbItem
         {
             Limb = limb.Type,
+            LimbType = limb.LimbType,
             Name = GenerateName(limb, rarity),
             Rarity = rarity,
             Stats = GenerateBonusStats(limb),
@@ -62,10 +90,10 @@ public class LimbDropGenerator : MonoBehaviour, IGenerator<int,float>
         var value = item.Value;
         return item.Rarity switch
         {
-            LimbInventory.LimbRarity.Common => value,
-            LimbInventory.LimbRarity.Magic => (int)(value * 1.5f),
-            LimbInventory.LimbRarity.Rare => (int)(value * 3f),
-            LimbInventory.LimbRarity.Special => (int)(value * 5f),
+            LimbInventory.LimbRarity.Common => (int)(value * CalculateBonusStatsMultiplier(item.Stats, original.BonusStatsMin, original.BonusStatsMax)),
+            LimbInventory.LimbRarity.Magic => (int)(value * 1.5f * CalculateBonusStatsMultiplier(item.Stats, original.BonusStatsMin, original.BonusStatsMax)),
+            LimbInventory.LimbRarity.Rare => (int)(value * 3f * CalculateBonusStatsMultiplier(item.Stats, original.BonusStatsMin, original.BonusStatsMax)),
+            LimbInventory.LimbRarity.Special => (int)(value * 5f * CalculateBonusStatsMultiplier(item.Stats, original.BonusStatsMin, original.BonusStatsMax)),
             _ => (int)(value * CalculateBonusStatsMultiplier(item.Stats, original.BonusStatsMin, original.BonusStatsMax))
         };
     }
@@ -83,10 +111,10 @@ public class LimbDropGenerator : MonoBehaviour, IGenerator<int,float>
     {
         return new BonusStats
         {
-            Calcium = Random.Range((int)limb.BonusStatsMin.Calcium, (int)limb.BonusStatsMax.Calcium+1),
-            Attack = Random.Range((int)limb.BonusStatsMin.Attack, (int)limb.BonusStatsMax.Attack+1),
-            Dexterity = Random.Range((int)limb.BonusStatsMin.Dexterity, (int)limb.BonusStatsMax.Dexterity+1),
-            Footwork = Random.Range((int)limb.BonusStatsMin.Footwork, (int)limb.BonusStatsMax.Footwork+1),
+            Calcium = Random.Range((int)limb.BonusStatsMin.Calcium, (int)limb.BonusStatsMax.Calcium + 1),
+            Attack = Random.Range((int)limb.BonusStatsMin.Attack, (int)limb.BonusStatsMax.Attack + 1),
+            Dexterity = Random.Range((int)limb.BonusStatsMin.Dexterity, (int)limb.BonusStatsMax.Dexterity + 1),
+            Footwork = Random.Range((int)limb.BonusStatsMin.Footwork, (int)limb.BonusStatsMax.Footwork + 1),
         };
     }
 

@@ -12,7 +12,7 @@ public class LimbDrop : Collectable
     protected override void OnAwake()
     {
         base.OnAwake();
-        _limbCompendium = LimbCompendium.Instance();
+        _limbCompendium = LimbCompendiumRef.Instance().LimbCompendium;
         _limbInventory = LimbInventory.Instance(true);
     }
 
@@ -34,6 +34,7 @@ public class LimbDrop : Collectable
     protected override void OnPickup()
     {
         base.OnPickup();
+        Item.New = true;
         _limbInventory.Inventory.Add(Item);
     }
 }

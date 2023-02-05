@@ -50,7 +50,7 @@ public class KillableObject : EffectPoolable
         var drop = DropRate.GenerateLimb();
         if (drop == null || !_limbDropManager.GetEffect(LimbDrop).TryGetFromPool(out var limb)) return;
         
-        limb.Item = drop.Value;
+        limb.Item = drop;
         limb.transform.position = transform.position + DropOffset;
     }
 

@@ -16,6 +16,7 @@ public class CameraForwardConfiner : BaseGameObject
     private WaveZoneManager _waveZoneManager;
     private bool _enabled;
 
+    private Vector3 _refVel;
     protected override void OnAwake()
     {
         base.OnAwake();
@@ -49,7 +50,10 @@ public class CameraForwardConfiner : BaseGameObject
             {
                 if (transform.position.x < _transposer.TrackedPoint.x - _startingX)
                 {
-                    transform.position = new Vector3(_transposer.TrackedPoint.x - _startingX, transform.position.y);
+                    transform.position =
+                        Vector3.SmoothDamp(transform.position, 
+                            new Vector3(_transposer.TrackedPoint.x - _startingX, transform.position.y),
+                            ref _refVel, 1f);
                 }
                 yield return TimeYields.WaitOneFrameX;
             }

@@ -218,7 +218,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.01746267, y: -0.22555941}
+  m_Offset: {x: 0.0045758784, y: -0.22813678}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -229,7 +229,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.39492595, y: 0.1475383}
+  m_Size: {x: 0.48255628, y: 0.21454954}
   m_EdgeRadius: 0
 --- !u!1 &8582316634959159253
 GameObject:
@@ -302,6 +302,7 @@ MonoBehaviour:
   Item:
     Name: Mr. Bones' Left Arm
     Limb: 2
+    LimbType: 0
     Stats:
       Calcium: 0
       Attack: 1
@@ -309,6 +310,8 @@ MonoBehaviour:
       Footwork: 0
     Rarity: 0
     Value: 10
+    New: 0
+    Equipped: 0
   FloatEffect: {fileID: 8582316635232649850}
   ColorEffect: {fileID: 8582316635232649852}
 --- !u!61 &8582316634959159256
@@ -324,7 +327,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.003414832, y: -0.02138713}
+  m_Offset: {x: -0.003414832, y: -0.016232342}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -335,7 +338,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.24190684, y: 0.3509757}
+  m_Size: {x: 0.24190684, y: 0.4643796}
   m_EdgeRadius: 0
 --- !u!114 &8582316634959159258
 MonoBehaviour:
@@ -433,7 +436,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1919068366, guid: 0a9a7771cebed114cab91742c2771b43, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
