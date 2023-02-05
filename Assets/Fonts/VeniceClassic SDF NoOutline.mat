@@ -27,9 +27,12 @@ Material:
     m_Ints: []
     m_Floats:
     - _FaceDilate: -1
+    - _OutlineSoftness: 1
+    - _ScaleRatioA: 0.9
     - _ScaleRatioB: 1.63125
     - _ScaleRatioC: 1.63125
     - _UnderlayOffsetY: 0
+    - _UnderlaySoftness: 0.801
     m_Colors:
     - _GlowColor: {r: 0, g: 1, b: 0, a: 0.5}
   m_BuildTextureStacks: []

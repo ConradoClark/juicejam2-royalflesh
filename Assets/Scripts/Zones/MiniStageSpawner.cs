@@ -11,9 +11,10 @@ public class MiniStageSpawner : BaseGameObject
     public float SpawnXDistance;
 
     public float SpawnOffset;
-    private float _currentMiniStage;
+    public int CurrentMiniStage { get; private set; }
 
     public ScriptPrefab Stage;
+    public ScriptPrefab PayUpStage;
 
     private PlayerIdentifier _player;
     private EffectsManager _effects;
@@ -34,7 +35,7 @@ public class MiniStageSpawner : BaseGameObject
     {
         while (enabled)
         {
-            if (_currentMiniStage == 0)
+            if (CurrentMiniStage == 0)
             {
                 while (_player.transform.position.x < InitialSpawnX)
                 {
@@ -46,20 +47,20 @@ public class MiniStageSpawner : BaseGameObject
                     stage.Component.transform.position = new Vector3(InitialSpawnX + SpawnOffset,0,0);
                 }
 
-                _currentMiniStage++;
+                CurrentMiniStage++;
             }
 
-            while (_player.transform.position.x < InitialSpawnX + SpawnXDistance * _currentMiniStage)
+            while (_player.transform.position.x < InitialSpawnX + SpawnXDistance * CurrentMiniStage)
             {
                 yield return TimeYields.WaitOneFrameX;
             }
 
-            if (_effects.GetEffect(Stage).TryGetFromPool(out var stg))
+            if (_effects.GetEffect((CurrentMiniStage-1) % 3 == 0 ? PayUpStage : Stage).TryGetFromPool(out var stg))
             {
-                stg.Component.transform.position = new Vector3(InitialSpawnX + SpawnXDistance * _currentMiniStage + SpawnOffset, 0, 0);
+                stg.Component.transform.position = new Vector3(InitialSpawnX + SpawnXDistance * CurrentMiniStage + SpawnOffset, 0, 0);
             }
 
-            _currentMiniStage++;
+            CurrentMiniStage++;
 
             yield return TimeYields.WaitOneFrameX;
         }

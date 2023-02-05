@@ -22,11 +22,6 @@ public class ShadowComparer : BaseGameObject
         PhysicsObject.AddCustomObject(this);
     }
 
-    private void OnDisable()
-    {
-        PhysicsObject.RemoveCustomObject<ShadowComparer>();
-    }
-
     public static bool IsZIndexInRange(LichtPhysics physics, Collider2D source, Collider2D target)
     {
         if (!physics.TryGetPhysicsObjectByCollider(source, out var sourceObject)) return false;

@@ -19,8 +19,12 @@ public class CharacterIntro : BaseGameObject
     public float IntroDurationInSeconds;
     public float IntroDelayInSeconds;
 
+    public bool UseIntro;
+
     public IEnumerable<IEnumerable<Action>> RunIntro()
     {
+        if (!UseIntro) yield break;
+
         transform.position = InitialPosition;
         MoveController.BlockMovement(this);
         AnimController.SetGrounded(false);

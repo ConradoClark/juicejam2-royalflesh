@@ -36,7 +36,6 @@ namespace Assets.Scripts.Character
         public void ChangeLimbs(IReadOnlyList<LimbInventory.LimbItem> items)
         {
             if (items.Count == 0) return;
-            OnLimbsChanged?.Invoke();
             var limbRef = Dictionary[items.First().Limb].LimbRef;
             var allSiblings = limbRef.transform.parent.transform.parent
                 .GetComponentsInChildren<LimbRef>();
@@ -49,6 +48,7 @@ namespace Assets.Scripts.Character
             {
                 Dictionary[item.Limb].LimbRef.gameObject.SetActive(true);
             }
+            OnLimbsChanged?.Invoke();
         }
     }
 }

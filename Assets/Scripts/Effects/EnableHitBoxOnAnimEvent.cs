@@ -77,9 +77,13 @@ public class EnableHitBoxOnAnimEvent : BaseGameObject
             var results = _results.Where(c =>
                 c != null && ShadowComparer.IsZIndexInRange(_physics, Collider, c)).ToArray();
 
+            if (collision > 0)
+            {
+
+            }
             if (collision > 0 && results.Length>0)
             {
-                OnCollide?.Invoke(results);
+                 OnCollide?.Invoke(results);
                 yield return TimeYields.WaitMilliseconds(GameTimer, 25);
                 Collider.enabled = false;
             }
@@ -92,5 +96,9 @@ public class EnableHitBoxOnAnimEvent : BaseGameObject
         this.StopObservingEvent<CustomAnimationEventListener.AnimationEventType,
             CustomAnimationEventListener.CustomAnimationEventHandler>(CustomAnimationEventListener.AnimationEventType.OnCustomAnimationEvent,
             OnEvent);
+
+        this.StopObservingEvent<CustomAnimationEventListener.AnimationEventType,
+            CustomAnimationEventListener.CustomAnimationEventHandler>(CustomAnimationEventListener.AnimationEventType.OnCustomAnimationEventExit,
+            OnEventExit);
     }
 }

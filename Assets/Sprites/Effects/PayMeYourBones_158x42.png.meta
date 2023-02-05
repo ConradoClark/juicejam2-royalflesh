@@ -1,0 +1,1455 @@
+fileFormatVersion: 2
+guid: 59f3ded83ed43344ea1d35bef2d755e7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75921a4ae6820146958efd1da155838
+      internalID: -1904151121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_1
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 252
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958133b4e640b5449885000e1af83d9e
+      internalID: 1968210575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_2
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 252
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3795ec929d61fc2488c3ccc23ad1494e
+      internalID: 1770179077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_3
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 252
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce1f8a0b9e6a14489fa6c26e3927047
+      internalID: -165445991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_4
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 252
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95da37ce131e4b4f8d357c811ae1cd8
+      internalID: -1782174576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_5
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 252
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a760c628a1ebaa49a776087008779e6
+      internalID: 132680653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_6
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 252
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9bab5c7c4191c4580583e3bba428ee
+      internalID: 2122173962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_7
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 252
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c0294c50ab0894ea132aa755b8c0c8
+      internalID: -1537902292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_8
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 252
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a9aa32c1cc58143a250b3243d94aa6
+      internalID: -1477113891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e53f639f58ae4b49930a14b1499cecc
+      internalID: -1116148820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_10
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 210
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28aa2c72ca2f3bf45a21b1b299ddd689
+      internalID: -740362682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_11
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 210
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a105364ecc436842b75986292a1b48b
+      internalID: -446575948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_12
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 210
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3b52a4738a22b42a3a0a00dbb1e737
+      internalID: -2110541003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_13
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 210
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50910711d03384409a12b08a0993932
+      internalID: 297728136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_14
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 210
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fafe1e13f03d8704e8f77d2ba6d3cc41
+      internalID: 1997757216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_15
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 210
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32fce7bafc9ba2e489565117a54bf53d
+      internalID: 245976298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_16
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 210
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a83d12de3723a40bb67f48e14eaccb
+      internalID: 502387462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_17
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 210
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbf9b7f901582f41b49c21b3551a95d
+      internalID: -572795399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6819f9db54db24b81b272193f83bda
+      internalID: 254112154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_19
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 168
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053aaf75069d15641b8470c9bb376928
+      internalID: -295092426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_20
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 168
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d9a183e911414499b1dade2bb88f72
+      internalID: -903671910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_21
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 168
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9e953285ea1c8458c6d10a7f2902fe
+      internalID: -2117354428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_22
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 168
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ffe8a10343db74c91a3859e601c120
+      internalID: 1220142699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_23
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 168
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63dbfa2609243d64cb1e1b0ea4520ad8
+      internalID: 1317835688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_24
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 168
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0e01bcf49105f43916256d7779f0d0
+      internalID: -1137106001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_25
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 168
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee09e8d29a23ad04d9856661a2a2fc46
+      internalID: 190063356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_26
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 168
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292cab7d4934aec4981dea2a2d26df61
+      internalID: 1375737841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b3047ad319031438d79a4b66833178
+      internalID: -1117708949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_28
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 126
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d3546bd07078a4da3593d6e350c329
+      internalID: 325581497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_29
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 126
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619a17efad95df84aa33e202c269126c
+      internalID: -380593686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_30
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 126
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84d40f074c20214aad35b6c993d0c5b
+      internalID: -1646525153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_31
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 126
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4806c479e46f3ad42b4690cce8f212bf
+      internalID: 1844712078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_32
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 126
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2284daae150c0348bcc6fce34515713
+      internalID: 921898643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_33
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 126
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0f605ede3de6d4baffaac9260c42ba
+      internalID: 1345438369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_34
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 126
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6948b332bac1de040aff1b65a7e1adff
+      internalID: -402999385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_35
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 126
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bbaf0766fd60014282df5c8815ff0be
+      internalID: -853091260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54af38df9a9246440b049643ec3441a0
+      internalID: 940924182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_37
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 84
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b512e7bdbb56834aa83ef13e81f847b
+      internalID: 936944129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_38
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 84
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390084004d51c884a9d3a51a1354d2e2
+      internalID: -1932947832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_39
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 84
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1947712579c9c74c9b7e80bc70d3367
+      internalID: -619867786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_40
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 84
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503408329b494aa42b3fa95385b1f21a
+      internalID: 1064829434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_41
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 84
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f18de15da5b59e439ca6527b8fb8976
+      internalID: -1242449612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_42
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 84
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5816e71475996514da43c3524ecdd9c0
+      internalID: 811434355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_43
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 84
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d88522710786a4fa663b7e886d5d54
+      internalID: 1059553323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_44
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 84
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a2804817cd978419b88cb0ec74c79a
+      internalID: 1138596162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 42
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1683cc7a35d67fd4e8235053a9e45427
+      internalID: -455443694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_46
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 42
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3854070d78a81134ab6f081d58a87079
+      internalID: -2032790441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_47
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 42
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c90f2c98eaeb5489212f0d54d7946e
+      internalID: 500054731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_48
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 42
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6e1bfbe93cf9445aaeb6cc57ae7039
+      internalID: -1199496895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_49
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 42
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39388ff631e8a54499c6421b027951d2
+      internalID: -1386336759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_50
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 42
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dccf3774517d774099303a62bf1f17b
+      internalID: 1813774706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_51
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 42
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4f3d4697c8fc146b32d6bf9c467b85
+      internalID: -242510715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_52
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 42
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5476c7c8d4551ba4babd9280a18e1cc0
+      internalID: 373263249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_53
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 42
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7985d5df4530e8f4ea7849d3c5897c96
+      internalID: -2054007195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6645aa2a60cd0c54e9175df8f833146f
+      internalID: 1007634961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_55
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 0
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879824d9655f4504f883bcbcca932ad2
+      internalID: 797244425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_56
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 0
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed99d56c6bbf2b846a4903542e08abca
+      internalID: -579983748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_57
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 0
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7396be95b339c4494837d643b63cca
+      internalID: 542997258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_58
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 0
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b015278219862e4ba27b4fdf2a0a86c
+      internalID: -1273459629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PayMeYourBones_158x42_59
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 0
+        width: 158
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b875eaf014621747a43f49dd6a4c36f
+      internalID: -29746992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PayMeYourBones_158x42_31: 1844712078
+      PayMeYourBones_158x42_56: -579983748
+      PayMeYourBones_158x42_49: -1386336759
+      PayMeYourBones_158x42_9: -1116148820
+      PayMeYourBones_158x42_27: -1117708949
+      PayMeYourBones_158x42_50: 1813774706
+      PayMeYourBones_158x42_52: 373263249
+      PayMeYourBones_158x42_2: 1770179077
+      PayMeYourBones_158x42_8: -1477113891
+      PayMeYourBones_158x42_37: 936944129
+      PayMeYourBones_158x42_10: -740362682
+      PayMeYourBones_158x42_3: -165445991
+      PayMeYourBones_158x42_41: -1242449612
+      PayMeYourBones_158x42_14: 1997757216
+      PayMeYourBones_158x42_30: -1646525153
+      PayMeYourBones_158x42_47: 500054731
+      PayMeYourBones_158x42_26: 1375737841
+      PayMeYourBones_158x42_36: 940924182
+      PayMeYourBones_158x42_33: 1345438369
+      PayMeYourBones_158x42_54: 1007634961
+      PayMeYourBones_158x42_13: 297728136
+      PayMeYourBones_158x42_43: 1059553323
+      PayMeYourBones_158x42_44: 1138596162
+      PayMeYourBones_158x42_0: -1904151121
+      PayMeYourBones_158x42_38: -1932947832
+      PayMeYourBones_158x42_12: -2110541003
+      PayMeYourBones_158x42_24: -1137106001
+      PayMeYourBones_158x42_25: 190063356
+      PayMeYourBones_158x42_40: 1064829434
+      PayMeYourBones_158x42_17: -572795399
+      PayMeYourBones_158x42_16: 502387462
+      PayMeYourBones_158x42_11: -446575948
+      PayMeYourBones_158x42_59: -29746992
+      PayMeYourBones_158x42_18: 254112154
+      PayMeYourBones_158x42_42: 811434355
+      PayMeYourBones_158x42_45: -455443694
+      PayMeYourBones_158x42_46: -2032790441
+      PayMeYourBones_158x42_48: -1199496895
+      PayMeYourBones_158x42_23: 1317835688
+      PayMeYourBones_158x42_58: -1273459629
+      PayMeYourBones_158x42_53: -2054007195
+      PayMeYourBones_158x42_29: -380593686
+      PayMeYourBones_158x42_4: -1782174576
+      PayMeYourBones_158x42_15: 245976298
+      PayMeYourBones_158x42_35: -853091260
+      PayMeYourBones_158x42_6: 2122173962
+      PayMeYourBones_158x42_7: -1537902292
+      PayMeYourBones_158x42_20: -903671910
+      PayMeYourBones_158x42_21: -2117354428
+      PayMeYourBones_158x42_1: 1968210575
+      PayMeYourBones_158x42_22: 1220142699
+      PayMeYourBones_158x42_28: 325581497
+      PayMeYourBones_158x42_5: 132680653
+      PayMeYourBones_158x42_34: -402999385
+      PayMeYourBones_158x42_19: -295092426
+      PayMeYourBones_158x42_32: 921898643
+      PayMeYourBones_158x42_57: 542997258
+      PayMeYourBones_158x42_39: -619867786
+      PayMeYourBones_158x42_55: 797244425
+      PayMeYourBones_158x42_51: -242510715
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

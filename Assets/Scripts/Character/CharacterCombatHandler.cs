@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Assets.Scripts.Character;
 using Licht.Impl.Orchestration;
 using Licht.Unity;
 using Licht.Unity.CharacterControllers;
@@ -20,6 +21,7 @@ public class CharacterCombatHandler : BaseGameObject
     private InputAction _attackAction;
     private LimbAttack[] _attacks;
     private LimbAttack[] _currentCombo;
+    private LimbCompendium _limbCompendium;
 
     public float BufferingTimeInMs;
 
@@ -31,6 +33,7 @@ public class CharacterCombatHandler : BaseGameObject
         _playerInput = BasicToolbox.Instance(true).GetComponent<PlayerInput>();
         _attackAction = _playerInput.actions[AttackInput.ActionName];
         _attacks = Limbs.GetComponentsInChildren<LimbAttack>();
+        _limbCompendium = LimbCompendiumRef.Instance(true).LimbCompendium;
     }
 
     private void OnEnable()
@@ -39,10 +42,20 @@ public class CharacterCombatHandler : BaseGameObject
         DefaultMachinery.AddBasicMachine(HandleBuffer());
         DefaultMachinery.AddBasicMachine(HandleCombat());
         _currentCombo = _attacks.OrderBy(atk => atk.Priority).ToArray();
+        _limbCompendium.OnLimbsChanged += LimbCompendium_OnLimbsChanged;
+
     }
+
+    private void LimbCompendium_OnLimbsChanged()
+    {
+        _attacks = Limbs.GetComponentsInChildren<LimbAttack>();
+        _currentCombo = _attacks.OrderBy(atk => atk.Priority).ToArray();
+    }
+
     private void OnDisable()
     {
         _enabled = false;
+        _limbCompendium.OnLimbsChanged -= LimbCompendium_OnLimbsChanged;
     }
 
     private IEnumerable<IEnumerable<Action>> HandleBuffer()

@@ -9,6 +9,7 @@ using UnityEngine;
 
 public class MiniStage : EffectPoolable
 {
+    public WaveZone Zone;
     private PlayerIdentifier _player;
     protected override void OnAwake()
     {
@@ -28,5 +29,6 @@ public class MiniStage : EffectPoolable
             yield return TimeYields.WaitOneFrameX;
         }
         EndEffect();
+        Zone.Cleared = false;
     }
 }

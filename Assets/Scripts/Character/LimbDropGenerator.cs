@@ -59,6 +59,7 @@ public class LimbDropGenerator : MonoBehaviour, IGenerator<int, float>
                 NameSuffixes = drop.NameSuffixes,
                 Chance = drop.Chance,
                 CurrentCombo = _comboTracker.CurrentCombo,
+                Value = drop.Value
             }
         ).ToArray();
 
@@ -104,7 +105,7 @@ public class LimbDropGenerator : MonoBehaviour, IGenerator<int, float>
         var maxValue = max.Calcium + max.Attack + max.Dexterity + max.Footwork;
         var statsValue = stats.Calcium + stats.Attack + stats.Dexterity + stats.Footwork;
 
-        return statsValue + statsValue * (minValue / maxValue);
+        return Math.Max(1, statsValue + statsValue * (minValue / maxValue));
     }
 
     private BonusStats GenerateBonusStats(DroppableLimb limb)

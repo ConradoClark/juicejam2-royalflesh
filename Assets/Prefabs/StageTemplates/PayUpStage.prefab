@@ -178,9 +178,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2151550988472780539}
   - component: {fileID: 1025760998670639924}
-  - component: {fileID: 5615910514064086979}
+  - component: {fileID: 8972871271259414179}
   m_Layer: 15
-  m_Name: RandomEnemySpawn
+  m_Name: PayUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -242,7 +242,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 65f0e363b74cf5845ab8c3fbc14f39ac, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ae53a7884da90e94eb5dfeab594b746c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -253,7 +253,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5615910514064086979
+--- !u!114 &8972871271259414179
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -262,21 +262,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 3857182844055499846}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c96c226361c5094a86294e7e436ae46, type: 3}
+  m_Script: {fileID: 11500000, guid: 57df36ad60360df419a02a9777788ab6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Cleared: 0
-  DelayBetweenWavesInSeconds: 2
-  EnemyWaves:
-  - Spawns:
-    - Enemy: {fileID: 11400000, guid: 3397955d566ee47428b4404f30741923, type: 2}
-      Position: {x: -4.3, y: -0.8, z: 0}
-    - Enemy: {fileID: 11400000, guid: 3397955d566ee47428b4404f30741923, type: 2}
-      Position: {x: 4, y: -1.5, z: 0}
-    - Enemy: {fileID: 11400000, guid: 3397955d566ee47428b4404f30741923, type: 2}
-      Position: {x: -4.3, y: -0.8, z: 0}
-    - Enemy: {fileID: 11400000, guid: 3397955d566ee47428b4404f30741923, type: 2}
-      Position: {x: 4, y: -1.5, z: 0}
 --- !u!1 &3969530915142330110
 GameObject:
   m_ObjectHideFlags: 0
@@ -400,7 +389,7 @@ GameObject:
   - component: {fileID: 2500944578654614918}
   - component: {fileID: 5994751015383250798}
   m_Layer: 0
-  m_Name: MiniStage_Basic
+  m_Name: PayUpStage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -440,7 +429,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ActiveOnInitialization: 0
-  Zone: {fileID: 5615910514064086979}
+  Zone: {fileID: 8972871271259414179}
 --- !u!1 &6077382675282093193
 GameObject:
   m_ObjectHideFlags: 0
