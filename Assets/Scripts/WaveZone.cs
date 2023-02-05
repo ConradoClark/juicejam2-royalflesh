@@ -7,6 +7,7 @@ using Licht.Unity.Objects;
 
 public abstract class WaveZone : BaseGameObject
 {
+    public bool Cleared;
     public abstract WaveZoneManager.ZoneState Type { get; }
     private WaveZoneManager _manager;
     protected override void OnAwake()

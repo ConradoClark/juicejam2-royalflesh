@@ -73,9 +73,11 @@ public class WaveZoneManager : SceneObject<WaveZoneManager>
     private IEnumerable<IEnumerable<Action>> HandleZones()
     {
         while (!Intro.IsOver) yield return TimeYields.WaitOneFrameX;
-
         CurrentZoneState = ZoneState.GoMode;
-        var orderedZones = Zones.OrderBy(zone => zone.transform.position.x).ToArray();
+
+        recalc:
+        var orderedZones = Zones.Where(zone=>!zone.Cleared)
+            .OrderBy(zone => zone.transform.position.x).ToArray();
         var currentZoneIndex = 0;
         while (currentZoneIndex < orderedZones.Length)
         {
@@ -91,9 +93,12 @@ public class WaveZoneManager : SceneObject<WaveZoneManager>
             yield return currentZone.RunWave().AsCoroutine();
 
             currentZoneIndex++;
-
+            currentZone.Cleared = true;
             CurrentZoneState = ZoneState.GoMode;
             VirtualCamera.Follow = _player.transform;
         }
+
+        yield return TimeYields.WaitOneFrameX;
+        goto recalc;
     }
 }

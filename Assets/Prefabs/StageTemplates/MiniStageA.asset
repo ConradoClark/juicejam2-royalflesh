@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -972327683, guid: a70477a1d4ace974ab3f83bfa771b26f, type: 3}
+  m_Name: MiniStageA
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 5528281076648160280, guid: 3003a846e3f6f694392ebc827d92ebc3, type: 3}
+  DefaultPoolSize: 3
+  Type: 1
