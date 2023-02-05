@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 1903452838, guid: a70477a1d4ace974ab3f83bfa771b26f, type: 3}
   m_Name: LichtPhysics
   m_EditorClassIdentifier: 
-  Debug: 0
+  Debug: 1
   MinRayCastSize: 1
   CollisionOffset: 0.01
   FrameMultiplier: 0.001
